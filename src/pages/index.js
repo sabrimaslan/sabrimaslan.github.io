@@ -3,12 +3,12 @@ import { StaticImage } from "gatsby-plugin-image"
 
 const IndexPage = () => {
   return (
-    <main className="mx-auto max-w-7xl flex flex-row relative min-h-screen">
-      <div className="basis-1/4">
+    <main className="mx-auto max-w-7xl flex flex-col md:flex-row relative min-h-screen">
+      <div className="md:basis-1/4 p-6 md:p-0">
         <div className="text-center p-4">
           <StaticImage
             src="../images/avatar.png"
-            className="mt-16"
+            className="mt-8 md:mt-16"
             placeholder="blurred"
             width={168}
             quality={100}
@@ -24,7 +24,7 @@ const IndexPage = () => {
           <h3 className="text-lg font-light mt-4"><a className="underline" href="https://www.linkedin.com/in/sabrimaslan" target="_blank" rel="noopener noreferrer">linkedin.com/in/sabrimaslan</a></h3>
         </div>
       </div>
-      <div className="basis-3/4 p-6">
+      <div className="md:basis-3/4 p-6">
         <div className="p-4">
           <h4 className="text-xs/6 font-normal uppercase tracking-[.5em]">Profile</h4>
           <div className="font-normal">

@@ -1,0 +1,38 @@
+{
+  "name": "sabrimaslan",
+  "version": "1.0.0",
+  "private": true,
+  "description": "sabrimaslan",
+  "author": "Sabri Maslan",
+  "keywords": [
+    "sabrimaslan"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "deploy": "gatsby build && gh-pages -d public -b main",
+    "publish": "rm -rf node_modules/.cache/gh-pages && npm run deploy"
+  },
+  "dependencies": {
+    "@fontsource/open-sans": "^5.2.6",
+    "@tailwindcss/postcss": "^4.1.11",
+    "gatsby": "^5.14.1",
+    "gatsby-plugin-image": "^3.14.0",
+    "gatsby-plugin-postcss": "^6.14.0",
+    "gatsby-plugin-sharp": "^5.14.0",
+    "gatsby-source-filesystem": "^5.14.0",
+    "gatsby-transformer-sharp": "^5.14.0",
+    "postcss": "^8.5.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^4.1.11"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "prettier": "^3.6.2",
+    "prettier-plugin-tailwindcss": "^0.6.14"
+  }
+}

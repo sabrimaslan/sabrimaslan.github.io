@@ -1,1 +1,0 @@
-# sabrimaslan.github.io

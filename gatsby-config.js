@@ -4,12 +4,12 @@
 module.exports = {
   siteMetadata: {
     title: `Sabri Maslan`,
-    siteUrl: `https://sabrimaslan.github.io`,
+    siteUrl: `https://sabrimaslan.github.io`
   },
   plugins: [
-    'gatsby-plugin-postcss',
     `gatsby-plugin-image`,
+    `gatsby-plugin-postcss`,
     `gatsby-plugin-sharp`,
-    `gatsby-transformer-sharp`, // Needed for dynamic images
-  ],
+    `gatsby-transformer-sharp`
+  ]
 }

@@ -1,41 +1,19 @@
 import * as React from 'react'
-import { Link } from 'gatsby'
+
+import Layout from '../components/layout'
 
 const NotFoundPage = () => {
   return (
-    <main className="relative mx-auto flex min-h-screen max-w-7xl flex-row">
-      <div className="basis-1/4">
-        <div className="p-4">
-          <h1 className="my-6 text-2xl/8 font-semibold">Page not found</h1>
+    <Layout>
+      <main className="flex w-full flex-row items-center justify-center p-6">
+        <h1 className="font-[Sometype_Mono] text-8xl/12 font-bold -tracking-[.175em]">
+          Sorry.
+        </h1>
+        <div className="absolute mt-4 rotate-8 bg-[#FF6A3D] px-2 text-sm">
+          Page Not Found
         </div>
-      </div>
-      <div className="basis-3/4 p-6">
-        <div className="p-4">
-          <h4 className="text-xs/6 font-normal tracking-[.5em] uppercase">
-            Error
-          </h4>
-          <div className="font-normal">
-            <p className="text-lg font-semibold">
-              Sorry 😔, I couldn’t find what you were looking for.
-            </p>
-            <br />
-            {process.env.NODE_ENV === 'development' ? (
-              <>
-                <br />
-                Try creating a page in{' '}
-                <code className="font-mono">src/pages/</code>.
-                <br />
-              </>
-            ) : null}
-            <br />
-            <Link className="underline" to="/">
-              Return home
-            </Link>
-            ?
-          </div>
-        </div>
-      </div>
-    </main>
+      </main>
+    </Layout>
   )
 }
 

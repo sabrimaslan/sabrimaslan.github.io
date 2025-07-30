@@ -1,8 +1,9 @@
 import * as React from 'react'
+import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 
-const IndexPage = () => {
+const AboutPage = () => {
   return (
     <Layout>
       <main className="flex w-full flex-col lg:basis-5/6 lg:flex-row">
@@ -12,34 +13,35 @@ const IndexPage = () => {
           </div>
           <div className="p-4 lg:basis-3/5">
             <div className="font-[Sometype_Mono] text-6xl/12 font-bold -tracking-[.175em]">
-              Hello.
-            </div>
-            <div className="mt-4 text-2xl/8 font-semibold lg:-ml-10">
-              <span className="font-light">I'm </span>Sabri Maslan
-            </div>
-            <div className="text-xl/6 font-normal uppercase">
-              Lead, IT & UI/UX
+              Hey again.
             </div>
           </div>
         </aside>
         <section className="flex w-full flex-col p-6 lg:basis-2/5 lg:justify-center lg:p-0">
           <div className="flex flex-col p-4 lg:basis-2/5 lg:justify-end">
             <h4 className="text-lg/6 font-semibold tracking-[.25em] uppercase">
-              Intro
+              About
             </h4>
           </div>
           <div className="p-4 lg:basis-3/5">
             <div className="font-normal">
               <p className="mb-4">
-                This portfolio showcases selected works of my 15+ years of
-                experience. Within those years, I have been leading teams for
-                more than 10 years now. I lead with my sleeves up, hands-on and
-                collaborative approach. I never fully separate myself from the
-                day-to-day operations. My experiences involve works in a global
-                MNC companies, GLC, small businesses, startups and growing tech
-                enterprises.
+                As a strategist with over 15+ years in UI/UX, IT engineering and
+                delivery, I excel in creating user-driven systems that align
+                tech execution with product goals. I have a proven track record
+                of leading teams through significant transitions and delivering
+                effective design systems, ensuring enhanced collaboration,
+                operational improvements, and sustained business outcomes.
               </p>
-              <p className="mb-4">Thank you for your time.</p>
+              <p className="mb-4">
+                <Link
+                  className="text-md/6 no-underline underline-offset-4 hover:underline"
+                  to="/latest"
+                >
+                  View my latest resume here
+                </Link>
+                .
+              </p>
             </div>
           </div>
         </section>
@@ -48,6 +50,6 @@ const IndexPage = () => {
   )
 }
 
-export default IndexPage
+export default AboutPage
 
-export const Head = () => <title>Sabri Maslan</title>
+export const Head = () => <title>About : Sabri Maslan</title>

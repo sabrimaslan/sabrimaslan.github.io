@@ -8,7 +8,7 @@ const AboutPage = () => {
   return (
     <Layout>
       <main className="flex w-full flex-col lg:basis-5/6">
-        <div className="lg:justify-items-centerlg:order-last flex h-dvh w-full flex-col lg:flex-row">
+        <div className="flex h-dvh w-full flex-col lg:flex-row lg:justify-items-center">
           <div className="hidden flex-col lg:flex lg:h-screen lg:basis-1/10"></div>
           <aside className="lg:basis-1/5">
             <div className="flex h-full flex-col p-6 lg:p-0">
@@ -69,7 +69,7 @@ const AboutPage = () => {
                       </li>
                     </ul>
                   </p>
-                  <div className="flex justify-end text-xl/8 font-semibold lg:hidden">
+                  <div className="flex justify-end text-xl/8 font-semibold">
                     Scroll{' '}
                     <StaticImage
                       src="../images/scroll.png"
@@ -85,12 +85,12 @@ const AboutPage = () => {
             </div>
           </section>
         </div>
-        <hr className="mx-auto my-4 h-1 w-48 border-0 bg-gray-100 lg:my-10 lg:hidden dark:bg-gray-300"></hr>
-        <div className="flex h-dvh flex-col lg:order-first lg:w-full lg:justify-items-center">
+        <hr className="mx-auto my-4 h-1 w-48 border-0 bg-gray-100 lg:my-10 dark:bg-gray-300"></hr>
+        <div className="flex h-dvh flex-col lg:w-full lg:justify-items-center">
           <section className="w-full basis-2/5">
             <div className="flex h-full max-w-full flex-col items-start justify-end overflow-x-auto p-6 lg:p-0">
               <div className="p-4 pb-0 lg:pb-4">
-                <p className="mb-2 text-2xl/8 font-semibold">About</p>
+                <p className="mb-2 text-2xl/8 font-semibold">Epilogue</p>
               </div>
             </div>
           </section>

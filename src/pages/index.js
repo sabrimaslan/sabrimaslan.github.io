@@ -26,7 +26,7 @@ const IndexPage = () => {
         <section className="flex w-full flex-col px-6 lg:basis-3/5 lg:justify-center lg:p-0 xl:basis-2/5">
           <div className="flex flex-col p-4 lg:basis-2/5 lg:justify-end">
             <h4 className="text-lg/6 font-semibold tracking-[.25em] uppercase">
-              Introduction
+              Prologue
             </h4>
           </div>
           <div className="p-4 lg:basis-3/5">

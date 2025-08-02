@@ -7,7 +7,8 @@ const WorksPage = () => {
   return (
     <Layout>
       <main className="flex w-full flex-col items-start lg:basis-5/6 lg:flex-row">
-        <section className="flex w-full flex-col p-6 lg:h-screen lg:basis-3/5 lg:justify-center lg:p-0">
+        <div className="hidden flex-col lg:flex lg:h-screen lg:basis-1/10"></div>
+        <section className="flex w-full flex-col p-6 lg:h-screen lg:basis-4/5 lg:justify-center lg:p-0 xl:basis-3/5">
           <div className="p-4 font-[Sometype_Mono] text-6xl/12 font-bold -tracking-[.175em]">
             Portfolio.
           </div>

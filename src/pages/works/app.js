@@ -8,6 +8,7 @@ const OnAppPage = () => {
     <Layout>
       <main className="flex w-full flex-col lg:basis-5/6">
         <div className="flex h-dvh w-full flex-col lg:flex-row lg:justify-items-center">
+          <div className="hidden flex-col lg:flex lg:h-screen lg:basis-1/10"></div>
           <aside className="lg:basis-1/4">
             <div className="flex h-full flex-col p-6 lg:p-0">
               <div className="hidden items-end p-4 lg:flex lg:basis-2/5 lg:justify-start">

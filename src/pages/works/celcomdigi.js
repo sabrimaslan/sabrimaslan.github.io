@@ -8,6 +8,7 @@ const CompanyCelcomDigiPage = () => {
     <Layout>
       <main className="flex w-full flex-col lg:basis-5/6">
         <div className="flex h-dvh w-full flex-col lg:flex-row lg:justify-items-center">
+          <div className="hidden flex-col lg:flex lg:h-screen lg:basis-1/10"></div>
           <aside className="lg:basis-1/4">
             <div className="flex h-full flex-col p-6 lg:p-0">
               <div className="hidden items-end p-4 lg:flex lg:basis-2/5 lg:justify-start">
@@ -41,20 +42,18 @@ const CompanyCelcomDigiPage = () => {
                 <div className="font-normal">
                   <p className="mb-2">
                     Showcasing my works in the telecomunication industry, mainly
-                    on digitalising throughout the company. This includes design
-                    and development, for applications on the web and mobile.
-                    Solutions include internal, consumer and enterprise.
+                    on digitalising of the merger of companies. This includes
+                    design and development, for applications on the web and
+                    mobile.
                   </p>
                   <p className="mb-2">
-                    Utilising the latest technologies, mostly javascript
-                    frameworks, from Angular JS, React Native and Node JS,
-                    progressive web app to a static site generator, Gatsby JS
-                    and Strapi CMS.
+                    Utilising the latest technologies, from Next JS, React
+                    Native and Node JS to progressive web app, Strapi CMS and
+                    PostgreSQL as the database.
                   </p>
                   <p className="mb-2">
-                    For design, from prototyping to visual with the use of Adobe
-                    XD and Figma. As for vectorised components such as icons,
-                    Adobe Illustrator was still the preferred tool.
+                    For design, from prototyping to visual design with the use
+                    of Figma as the main tool.
                   </p>
                   <div className="flex justify-end text-xl/8 font-semibold">
                     Scroll{' '}
@@ -125,7 +124,8 @@ const CompanyCelcomDigiPage = () => {
                   <p className="mb-2 text-2xl/8 font-semibold">Next Gen</p>
                   Next Gen is a mobile app for CelcomDigi consumer. This app is
                   build to integrate both Celcom and Digi consumers and will be
-                  as the main mobile app after the merger.
+                  as the main mobile app post merger. It is heavily dependent on
+                  the readiness of the to-be backend system.
                 </div>
               </div>
               <div className="hidden lg:flex lg:basis-2/5 lg:flex-row">
@@ -222,7 +222,8 @@ const CompanyCelcomDigiPage = () => {
                   <p className="mb-2 text-2xl/8 font-semibold">Pryce</p>
                   Pryce is a progressive web app (PWA) for CelcomDigi stores.
                   This app is used to display package and pricing directly on
-                  the displayed devices in store.
+                  the displayed devices in store. The app is lightweight and
+                  focused on in-store user experience.
                 </div>
               </div>
               <div className="hidden lg:flex lg:basis-2/5 lg:flex-row">
@@ -312,12 +313,10 @@ const CompanyCelcomDigiPage = () => {
                     Next Gen Design System
                   </p>
                   NextGen Design System creates consistency and harmony within
-                  the product and brand ecosystem. It’s not only a live
-                  documentation of CelcomDigi’s design direction but also
-                  consist of components design, iconography, animation and
-                  motion. For developers, this translate to a styling bootstrap
-                  and web components that can be used throughout CelcomDigi’s
-                  applications.
+                  the product and brand ecosystem. It’s a live documentation of
+                  CelcomDigi’s design direction. For developers, this translate
+                  to a styling bootstrap that can be used throughout
+                  CelcomDigi’s mobile applications.
                 </div>
               </div>
               <div className="hidden lg:flex lg:basis-2/5 lg:flex-row">

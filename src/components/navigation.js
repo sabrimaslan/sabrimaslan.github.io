@@ -5,7 +5,7 @@ import { StaticImage } from 'gatsby-plugin-image'
 const Navigation = () => {
   return (
     <nav className="w-full items-start justify-center lg:flex lg:h-screen lg:basis-1/6 lg:flex-col">
-      <div className="flex justify-between p-6 lg:fixed lg:h-full lg:flex-col lg:p-20">
+      <div className="flex justify-between p-6 lg:fixed lg:h-full lg:flex-col lg:px-6 lg:py-20 xl:p-20">
         <div className="order-last p-4 lg:order-first lg:w-full lg:basis-1/3 lg:justify-start">
           <StaticImage
             src="../images/notion-face.png"

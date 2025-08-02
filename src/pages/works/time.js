@@ -8,6 +8,7 @@ const CompanyTimePage = () => {
     <Layout>
       <main className="flex w-full flex-col lg:basis-5/6">
         <div className="flex h-dvh w-full flex-col lg:flex-row lg:justify-items-center">
+          <div className="hidden flex-col lg:flex lg:h-screen lg:basis-1/10"></div>
           <aside className="lg:basis-1/4">
             <div className="flex h-full flex-col p-6 lg:p-0">
               <div className="hidden items-end p-4 lg:flex lg:basis-2/5 lg:justify-start">
@@ -40,15 +41,19 @@ const CompanyTimePage = () => {
               <div className="p-4 lg:basis-3/5">
                 <div className="font-normal">
                   <p className="mb-2">
-                    The engineering team built mainly to develop end-to-end solutions,
-                    refreshed technology stacks and digital transformation from legacy systems to support for the carve out broadband business.
+                    The engineering team built mainly to develop end-to-end
+                    solutions, refreshed technology stacks and digital
+                    transformation from legacy systems to support for the carve
+                    out broadband business.
                   </p>
                   <p className="mb-2">
-                    Utilising the latest technologies, from Flutter for the mobile application, NextJS for everything web, NodeJS and Golang for the middleware, and PostgreSQL for the database.
+                    Utilising the latest technologies, from Flutter for the
+                    mobile application, NextJS for everything web, NodeJS and
+                    Golang for the middleware, and PostgreSQL for the database.
                   </p>
                   <p className="mb-2">
-                    For design, from prototyping to visual with the use of
-                    Figma as the main tool.
+                    For design, from prototyping to visual design with the use of Figma
+                    as the main tool.
                   </p>
                   <div className="flex justify-end text-xl/8 font-semibold">
                     Scroll{' '}
@@ -121,7 +126,9 @@ const CompanyTimePage = () => {
                   </p>
                   The mobile app for TIME Retail business unit. This app is
                   build as a refresh for consumers and is the main mobile app
-                  for TIME Retail post carve out.
+                  for TIME Retail business-as-usual and post carve out. It is
+                  currently integrated with existing legacy backend while
+                  developed with the future system integration ready in place.
                 </div>
               </div>
               <div className="hidden lg:flex lg:basis-2/5 lg:flex-row">
@@ -218,7 +225,10 @@ const CompanyTimePage = () => {
                   <p className="mb-2 text-2xl/8 font-semibold">
                     TIME Retail Kiosk
                   </p>
-                  The Kiosk is an on-the-ground sign up channels for TIME Retail located in targeted buildings. The app is used to display package and pricing direct to offline consumer to get them to sign up for the broadband.
+                  The kiosk is an on-the-ground sign up channels for TIME Retail
+                  located in targeted buildings. It is used to display package
+                  and pricing direct to offline consumer to get them to sign up
+                  for the broadband services.
                 </div>
               </div>
               <div className="hidden lg:flex lg:basis-2/5 lg:flex-row">
@@ -310,9 +320,7 @@ const CompanyTimePage = () => {
                   TIME Design Library creates consistency and harmony within the
                   product and brand ecosystem. It’s not only a live
                   documentation of TIME’s design direction but also consist of
-                  components design, iconography, animation and motion. For
-                  developers, this translate to a styling bootstrap and web
-                  components that can be used throughout TIME’s applications.
+                  components design and iconography.
                 </div>
               </div>
               <div className="hidden lg:flex lg:basis-2/5 lg:flex-row">

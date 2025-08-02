@@ -6,7 +6,8 @@ const IndexPage = () => {
   return (
     <Layout>
       <main className="flex w-full flex-col lg:basis-5/6 lg:flex-row">
-        <aside className="flex flex-col p-6 lg:h-screen lg:basis-1/5 lg:p-0">
+        <div className="hidden flex-col lg:flex lg:h-screen lg:basis-1/10"></div>
+        <aside className="flex flex-col px-6 lg:h-screen lg:basis-1/5 lg:p-0">
           <div className="hidden items-end p-4 lg:flex lg:basis-2/5">
             &nbsp;
           </div>
@@ -22,24 +23,27 @@ const IndexPage = () => {
             </div>
           </div>
         </aside>
-        <section className="flex w-full flex-col p-6 lg:basis-2/5 lg:justify-center lg:p-0">
+        <section className="flex w-full flex-col px-6 lg:basis-3/5 lg:justify-center lg:p-0 xl:basis-2/5">
           <div className="flex flex-col p-4 lg:basis-2/5 lg:justify-end">
             <h4 className="text-lg/6 font-semibold tracking-[.25em] uppercase">
-              Intro
+              Introduction
             </h4>
           </div>
           <div className="p-4 lg:basis-3/5">
             <div className="font-normal">
               <p className="mb-4">
-                This portfolio showcases selected works of my 15+ years of
-                experience. Within those years, I have been leading teams for
-                more than 10 years now. I lead with my sleeves up, hands-on and
-                collaborative approach. I never fully separate myself from the
-                day-to-day operations. My experiences involve works in a global
-                MNC companies, GLC, small businesses, startups and growing tech
-                enterprises.
+                This portfolio features a curated selection of my work,
+                reflecting over 15 years of experience across design,
+                engineering, and digital leadership.
               </p>
-              <p className="mb-4">Thank you for your time.</p>
+              <p className="mb-4">
+                For more than a decade, I’ve led teams with a hands-on,
+                sleeves-rolled-up approach — collaborative, grounded, and deeply
+                involved in the day-to-day.
+              </p>
+              <p className="mb-4">
+                If you’re building something ambitious — I’m in.
+              </p>
             </div>
           </div>
         </section>

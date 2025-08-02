@@ -8,6 +8,7 @@ const CompanyCelcomPage = () => {
     <Layout>
       <main className="flex w-full flex-col lg:basis-5/6">
         <div className="flex h-dvh w-full flex-col lg:flex-row lg:justify-items-center">
+          <div className="hidden flex-col lg:flex lg:h-screen lg:basis-1/10"></div>
           <aside className="lg:basis-1/4">
             <div className="flex h-full flex-col p-6 lg:p-0">
               <div className="hidden items-end p-4 lg:flex lg:basis-2/5 lg:justify-start">
@@ -51,9 +52,10 @@ const CompanyCelcomPage = () => {
                     static site generator, Gatsby JS and Strapi CMS.
                   </p>
                   <p className="mb-2">
-                    For design, from prototyping to visual with the use of Adobe
-                    XD and Figma. As for vectorised components such as icons,
-                    Adobe Illustrator was still the preferred tool.
+                    For design, from prototyping to visual with the use of
+                    Sketch, Adobe XD and Figma. As for vectorised components
+                    such as icons, Adobe Illustrator was still the preferred
+                    tool.
                   </p>
                   <div className="flex justify-end text-xl/8 font-semibold">
                     Scroll{' '}

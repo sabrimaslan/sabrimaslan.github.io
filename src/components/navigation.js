@@ -4,9 +4,9 @@ import { StaticImage } from 'gatsby-plugin-image'
 
 const Navigation = () => {
   return (
-    <nav className="w-full items-start justify-center lg:flex lg:h-screen lg:basis-1/6 lg:flex-col">
-      <div className="flex justify-between p-6 lg:fixed lg:h-full lg:flex-col lg:px-6 lg:py-20 xl:p-20">
-        <div className="order-last p-4 lg:order-first lg:w-full lg:basis-1/3 lg:justify-start">
+    <nav className="items-start justify-center pl-6 lg:col-span-2">
+      <div className="flex justify-between py-6 lg:fixed lg:h-full lg:flex-col lg:py-20">
+        <div className="order-last lg:order-first">
           <StaticImage
             src="../images/notion-face.png"
             placeholder="blurred"
@@ -16,34 +16,43 @@ const Navigation = () => {
             alt="Sabri Maslan"
           />
         </div>
-        <div className="flex flex-col justify-center p-4 lg:basis-1/3">
+        <div className="flex flex-col justify-center lg:basis-1/3">
           <Link
-            className="pb-1 text-xl/6 font-normal hover:underline hover:underline-offset-4"
+            className="pb-1 text-xl font-normal hover:underline hover:underline-offset-4 lg:pl-6"
             to="/"
           >
             Intro
           </Link>
           <Link
-            className="pb-1 text-xl/6 font-normal hover:underline hover:underline-offset-4"
+            className="pb-1 text-xl font-normal hover:underline hover:underline-offset-4 lg:pl-6"
             to="/works"
           >
             Works
           </Link>
           <Link
-            className="pb-1 text-xl/6 font-normal hover:underline hover:underline-offset-4"
+            className="pb-1 text-xl font-normal hover:underline hover:underline-offset-4 lg:pl-6"
             to="/about"
           >
             About
           </Link>
         </div>
-        <div className="mt-6 hidden max-w-7xl flex-col justify-end p-4 lg:flex lg:basis-1/3">
+        <div className="hidden lg:block lg:flex-col lg:justify-end lg:pt-25.5">
           <a
-            className="text-md/6 font-light no-underline underline-offset-4 hover:underline"
+            className="text-md align-text-bottom font-semibold no-underline underline-offset-4 hover:underline lg:pl-6"
             href="https://www.linkedin.com/in/sabrimaslan"
             target="_blank"
             rel="noopener noreferrer"
           >
             LinkedIn
+            <StaticImage
+              src="../images/scroll.png"
+              className="rotate-270"
+              placeholder="blurred"
+              height={24}
+              quality={100}
+              formats={['auto', 'webp', 'avif']}
+              alt="Scroll"
+            />
           </a>
         </div>
       </div>

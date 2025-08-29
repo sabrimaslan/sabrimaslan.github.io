@@ -11,7 +11,7 @@ import Navigation from './navigation'
 
 const Layout = ({ children }) => {
   return (
-    <div className="h-screen w-screen touch-none gap-6 lg:grid lg:grid-cols-12 lg:grid-rows-12">
+    <div className="h-screen w-screen gap-6 lg:grid lg:grid-cols-12 lg:grid-rows-12">
       <Navigation />
       {children}
     </div>

@@ -33,7 +33,7 @@ const IndexPage = () => {
           <p className="mb-0">
             If you’re building something ambitious — I’m in.
           </p>
-          <p className="flex justify-end pt-8">
+          <div className="flex justify-end pt-8">
             <Link
               className="text-md align-text-bottom font-semibold no-underline underline-offset-4 hover:underline"
               to="/latest"
@@ -49,7 +49,7 @@ const IndexPage = () => {
                 alt="Scroll"
               />
             </Link>
-          </p>
+          </div>
         </section>
         <div className="hidden lg:col-span-2 lg:block xl:col-span-3"></div>
       </main>

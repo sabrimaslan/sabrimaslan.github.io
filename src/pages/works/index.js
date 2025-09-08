@@ -17,7 +17,7 @@ const WorksPage = () => {
         <div className="hidden lg:col-span-1 lg:block"></div>
         <section className="lg:col-span-4 lg:content-center">
           <h4 className="text-md mb-4 font-semibold tracking-[.25em] uppercase">
-            Employed
+            Company
           </h4>
           <div className="mb-8 flex flex-col font-normal">
             <Link

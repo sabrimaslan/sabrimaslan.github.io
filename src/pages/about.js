@@ -80,7 +80,7 @@ const AboutPage = () => {
             <h4 className="py-6 text-2xl font-semibold">
               (Fine, Actually Quirky)
             </h4>
-            <p className="mb-4">
+            <div className="mb-4">
               <ul>
                 <li className="mb-2 -ml-3">
                   &bull;{' '}
@@ -115,7 +115,7 @@ const AboutPage = () => {
                   <span className="ml-3">Every time.</span>
                 </li>
               </ul>
-            </p>
+            </div>
           </section>
           <div className="hidden lg:col-span-3 lg:block"></div>
         </div>

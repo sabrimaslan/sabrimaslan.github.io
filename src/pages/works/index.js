@@ -16,7 +16,7 @@ const WorksPage = () => {
         <div className="hidden lg:col-span-1 lg:block"></div>
         <div className="hidden lg:col-span-1 lg:block"></div>
         <section className="lg:col-span-4 lg:content-center">
-          <h4 className="text-md mb-4 font-semibold tracking-[.25em] uppercase">
+          <h4 className="text-md mb-4 font-[Open_Sans] font-semibold tracking-[.25em] uppercase">
             Company
           </h4>
           <div className="mb-8 flex flex-col font-normal">
@@ -59,7 +59,7 @@ const WorksPage = () => {
           </div>
         </section>
         <section className="lg:col-span-4">
-          <h4 className="text-md mb-4 font-semibold tracking-[.25em] uppercase">
+          <h4 className="text-md mb-4 font-[Open_Sans] font-semibold tracking-[.25em] uppercase">
             Freelance
           </h4>
           <div className="flex flex-col font-normal">

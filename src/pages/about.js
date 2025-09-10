@@ -6,8 +6,8 @@ import Layout from '../components/layout'
 const AboutPage = () => {
   return (
     <Layout>
-      <main className="p-6 lg:col-span-10 lg:p-0">
-        <div className="h-fit min-h-fit gap-6 lg:grid lg:h-screen lg:grid-cols-10 lg:content-center">
+      <main className="p-6 lg:col-span-10 lg:p-0 snap-container">
+        <div className="h-fit min-h-fit gap-6 lg:grid lg:h-screen lg:grid-cols-10 lg:content-center snap-section">
           <div className="lg:col-span-10">
             <h4 className="pb-6 text-2xl font-semibold lg:pb-0">Epilogue</h4>
           </div>
@@ -67,7 +67,7 @@ const AboutPage = () => {
           </div>
           <div className="hidden lg:col-span-2 lg:block"></div>
         </div>
-        <div className="h-screen content-center gap-5 lg:grid lg:grid-cols-10">
+        <div className="h-screen content-center gap-5 lg:grid lg:grid-cols-10 snap-section">
           <div className="hidden lg:col-span-1 lg:block"></div>
           <aside className="lg:col-span-2 lg:content-center">
             <div className="pb-2 font-[Sometype_Mono] text-6xl font-bold -tracking-[.175em]">

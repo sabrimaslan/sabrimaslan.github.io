@@ -11,3 +11,16 @@ body {
 .no-scrollbar::-webkit-scrollbar {
   display: none; /* Chrome, Safari, and Opera */
 }
+
+@media screen and (min-width: 1024px) {
+  .snap-container {
+    height: 100vh; /* Full viewport height for vertical snapping */
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory; /* Snap along the Y-axis, mandatory snapping */
+  }
+
+  .snap-section {
+    height: 100vh; /* Each section takes full viewport height */
+    scroll-snap-align: start; /* Snap each section to the start of the viewport */
+  }
+}

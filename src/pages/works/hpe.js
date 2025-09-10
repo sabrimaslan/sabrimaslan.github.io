@@ -6,8 +6,8 @@ import Layout from '../../components/layout'
 const CompanyHPEPage = () => {
   return (
     <Layout>
-      <main className="lg:col-span-10">
-        <div className="min-h-screen gap-6 px-6 lg:grid lg:h-screen lg:grid-cols-10 lg:content-center lg:p-0">
+      <main className="lg:col-span-10 snap-container">
+        <div className="min-h-screen gap-6 px-6 lg:grid lg:h-screen lg:grid-cols-10 lg:content-center lg:p-0 snap-section">
           <div className="hidden xl:col-span-1 xl:block"></div>
           <aside className="py-6 lg:col-span-4 lg:pt-32 xl:col-span-3">
             <h4 className="text-md font-light tracking-[.125em] uppercase">
@@ -57,7 +57,7 @@ const CompanyHPEPage = () => {
           <div className="hidden lg:col-span-2 lg:block"></div>
         </div>
         {/* HPE DnA */}
-        <div className="flex min-h-screen flex-col content-center justify-center gap-6 lg:grid lg:h-screen lg:grid-cols-10 lg:flex-row">
+        <div className="flex min-h-screen flex-col content-center justify-center gap-6 lg:grid lg:h-screen lg:grid-cols-10 lg:flex-row snap-section">
           <section className="order-last lg:order-first lg:col-span-10">
             <div className="no-scrollbar flex h-full max-w-full flex-row overflow-x-auto">
               <div className="min-w-[600px] p-4 lg:pl-0">
@@ -145,7 +145,7 @@ const CompanyHPEPage = () => {
           </aside>
         </div>
         {/* HPE eCPQ */}
-        <div className="flex min-h-screen flex-col content-center justify-center gap-6 lg:grid lg:h-screen lg:grid-cols-10 lg:flex-row">
+        <div className="flex min-h-screen flex-col content-center justify-center gap-6 lg:grid lg:h-screen lg:grid-cols-10 lg:flex-row snap-section">
           <section className="order-last lg:order-first lg:col-span-10">
             <div className="no-scrollbar flex h-full max-w-full flex-row overflow-x-auto">
               <div className="min-w-[600px] p-4 lg:pl-0">
@@ -233,7 +233,7 @@ const CompanyHPEPage = () => {
           </aside>
         </div>
         {/* HPE Knowledge Management Portal */}
-        <div className="flex min-h-screen flex-col content-center justify-center gap-6 lg:grid lg:h-screen lg:grid-cols-10 lg:flex-row">
+        <div className="flex min-h-screen flex-col content-center justify-center gap-6 lg:grid lg:h-screen lg:grid-cols-10 lg:flex-row snap-section">
           <section className="order-last lg:order-first lg:col-span-10">
             <div className="no-scrollbar flex h-full max-w-full flex-row overflow-x-auto">
               <div className="min-w-[600px] p-4 lg:pl-0">

@@ -6,8 +6,8 @@ import Layout from '../../components/layout'
 const OnPrintsPage = () => {
   return (
     <Layout>
-      <main className="lg:col-span-10">
-        <div className="min-h-screen gap-6 px-6 lg:grid lg:h-screen lg:grid-cols-10 lg:content-center lg:p-0">
+      <main className="lg:col-span-10 snap-container">
+        <div className="min-h-screen gap-6 px-6 lg:grid lg:h-screen lg:grid-cols-10 lg:content-center lg:p-0 snap-section">
           <div className="hidden lg:col-span-1 lg:block"></div>
           <aside className="py-6 lg:col-span-2 lg:pt-26">
             <h4 className="text-md font-light tracking-[.125em] uppercase">

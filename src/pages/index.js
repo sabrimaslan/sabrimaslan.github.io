@@ -11,12 +11,12 @@ const IndexPage = () => {
         <div className="hidden lg:col-span-1 lg:block"></div>
         <aside className="lg:col-span-2 lg:content-center">
           <div className="pb-2 font-[Sometype_Mono] text-6xl font-bold -tracking-[.175em]">
-            Hello.
+            Driving Digital.
           </div>
-          <div className="text-2xl font-semibold">
-            <span className="font-light lg:-ml-10">I'm </span>Sabri Maslan
+          <div className="text-2xl font-semibold">Sabri Maslan</div>
+          <div className="text-xl font-normal">
+            Head, IT Engineering & Digital Innovation
           </div>
-          <div className="text-xl font-normal">Lead, IT & UI/UX</div>
         </aside>
         <section className="lg:col-span-5 xl:col-span-4">
           <h4 className="py-6 text-2xl font-semibold">Prologue</h4>

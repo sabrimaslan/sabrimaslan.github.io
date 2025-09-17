@@ -26,12 +26,12 @@ const LatestPage = () => {
           </a>
         </div>
       </aside>
-      <header className="relative mx-auto flex max-w-4xl flex-col md:mt-10 md:flex-row">
+      <header className="relative mx-auto flex max-w-4xl flex-col md:flex-row">
         <div className="basis-4/5 p-6">
           <div className="items-center">
             <h1 className="text-2xl font-semibold">Sabri Maslan</h1>
             <h2 className="text-xl font-normal">
-              Lead, IT Engineering & UI/UX
+              Head, Digital Engineering & Innovation
             </h2>
             <div className="md:flex md:flex-row">
               <div className="mt-4 flex max-w-7xl flex-col md:basis-1/2">
@@ -93,16 +93,14 @@ const LatestPage = () => {
           </h4>
           <hr className="my-2 w-full border-t-2"></hr>
           <div className="flex flex-col">
-            Results-driven IT leader with over 15 years of experience spanning
-            engineering, digital platforms, and enterprise systems. Proven
-            success in leading IT strategy, governance, and large-scale digital
-            transformations in highly regulated industries. Adept at building
-            and scaling cross-functional teams, driving compliance-aligned
-            technology roadmaps, and optimizing IT assets to reduce costs and
-            enhance resilience. Hands-on leader with a track record of
-            delivering mission-critical systems (BSS, middleware, payment
-            gateways, and digital identity platforms) under high-stakes,
-            fast-moving environments.
+            Experienced IT leader with 15+ years driving digital transformation,
+            enterprise architecture, and technology innovation in highly
+            regulated industries. Skilled in leading secure and scalable digital
+            platforms including telco BSS, middleware, payment gateways, and
+            digital identity systems. Proven ability to develop digital
+            innovation strategies, architect mission-critical systems, and lead
+            agile, cross-functional teams to deliver compliant, customer-centric
+            solutions aligned with national digital economy goals.
           </div>
         </section>
         <section className="p-6 md:py-3">
@@ -111,11 +109,20 @@ const LatestPage = () => {
           </h4>
           <hr className="my-2 w-full border-t-2"></hr>
           <div className="flex flex-col">
-            Digital Transformation • Agile Delivery • Enterprise Architecture •
-            Payment Systems • Middleware & APIs • BSS Platforms • eKYC & Digital
-            Identity • Cloud Migration • Product Development • IT Strategy &
-            Roadmap • Customer-Centric Applications • Vendor & Stakeholder
-            Management
+            <ul className="ml-6 list-disc">
+              <li>Digital Innovation Strategy & Technology Roadmaps</li>
+              <li>Enterprise Architecture & Scalable System Design</li>
+              <li>
+                Secure-by-Design Software Development & DevOps (CI/CD,
+                Automation, Containers)
+              </li>
+              <li>Cloud Infrastructure Migration & Management</li>
+              <li>Middleware, API Management & BSS Platforms</li>
+              <li>eKYC, Digital Identity & Customer Data Unification</li>
+              <li>Agile Delivery & Cross-Functional Team Leadership</li>
+              <li>Vendor & Stakeholder Management</li>
+              <li>Customer-Centric Application & Platform Development</li>
+            </ul>
           </div>
         </section>
         <section className="p-6 md:py-3">
@@ -136,29 +143,29 @@ const LatestPage = () => {
               As the Head of Engineering
               <ul className="ml-6 list-disc">
                 <li>
-                  Leading end-to-end BSS development (billing, CRM, order
-                  management) to support new product launches and digital
-                  scalability.
+                  Lead architecture and delivery of end-to-end Business Support
+                  System (BSS) platforms (billing, CRM, order management) to
+                  support new product launches and digital scalability.
                 </li>
                 <li>
-                  Oversaw delivery of mobile apps, kiosks, dealer app, and
-                  WhatsApp acquisition bots, boosting customer acquisition
-                  conversion by 30%.
+                  Directed digital transformation initiatives including mobile
+                  apps, kiosks, dealer apps, and WhatsApp acquisition bots,
+                  increasing customer acquisition by 30%.
                 </li>
                 <li>
-                  Built and mentored a cross-functional Agile team, driving
-                  sprint velocity improvement and reducing delivery lead time by
-                  25%.
+                  Built and led agile, cross-functional teams (Project
+                  Management, Development, DevOps, UI/UX and Quality Assurance),
+                  driving a 25% improvement in sprint velocity and reducing
+                  delivery lead times.
                 </li>
                 <li>
-                  Introduced digital payment gateway and eKYC solutions, aligned
-                  with financial industry authentication standards to enhance
-                  customer onboarding.
+                  Implemented a digital payment gateway and eKYC solutions
+                  compliant with financial authentication standards to
+                  streamline customer onboarding.
                 </li>
                 <li>
-                  Implemented IT Asset Management (ITAM) for applications and
-                  infrastructure, reducing operational costs by double-digit
-                  percentages.
+                  Spearheaded IT Asset Management (ITAM) strategy for
+                  applications and infrastructure, reducing operational costs.
                 </li>
               </ul>
             </div>
@@ -166,21 +173,22 @@ const LatestPage = () => {
               As the Head of IT (Interim) — Due to departure of Chief IT Officer
               <ul className="ml-6 list-disc">
                 <li>
-                  Defined target architecture for digital-first operations,
-                  enabling the spin-off company to build modern customer
-                  platforms independent of legacy systems.
+                  Defined target digital architecture for modern,
+                  legacy-independent customer platforms aligned with national
+                  digital transformation goals.
                 </li>
                 <li>
-                  Guided customer 360° data unification initiative, enabling
-                  analytics-driven personalization and revenue protection.
+                  Led customer 360° data unification driving analytics-driven
+                  personalization and revenue protection across platforms.
                 </li>
                 <li>
-                  Championed Agile portfolio delivery, ensuring mission-critical
-                  projects progressed despite limited resources.
+                  Championed Agile portfolio delivery to maintain
+                  mission-critical project milestones despite resource
+                  constraints.
                 </li>
                 <li>
-                  Acted as bridge between Group IT and Retail IT, balancing
-                  innovation speed with compliance.
+                  Balanced innovation speed with regulatory compliance between
+                  Group IT and Retail IT functions.
                 </li>
               </ul>
             </div>
@@ -188,16 +196,17 @@ const LatestPage = () => {
               <span className="font-semibold">Key Achievements</span>
               <ul className="ml-6 list-disc">
                 <li>
-                  Implemented compliance-first middleware to ensure audit trails
-                  across all customer transactions.
+                  Rolled out a compliance-first middleware solution ensuring
+                  audit trails for all transactions, meeting regulatory
+                  requirements.
                 </li>
                 <li>
-                  Successfully launched customer self-care apps and kiosks,
-                  cutting onboarding time by 40%.
+                  Launched customer self-care applications and kiosks, reducing
+                  onboarding time by 40%.
                 </li>
                 <li>
-                  Delivered WhatsApp acquisition and review bots, achieving
-                  faster sign-ups and higher engagement.
+                  Delivered WhatsApp bots for acquisition and customer
+                  engagement, significantly improving sign-up velocity.
                 </li>
               </ul>
             </div>
@@ -219,18 +228,47 @@ const LatestPage = () => {
             <div className="mt-2">
               <ul className="ml-6 list-disc">
                 <li>
-                  Led a digital team with expertise from UI to AI, overseeing
-                  delivery across CelcomDigi’s post-merger consumer mobile app
-                  and Celcom’s web and mobile products.
+                  Led multidisciplinary product development teams integrating
+                  UI/UX design, AI, and backend solutions across consumer mobile
+                  and web platforms.
                 </li>
                 <li>
-                  Served as principal for the Celcom Design System, building and
-                  maintaining reusable components.
+                  Principal architect and maintainer of the Celcom Design
+                  System, driving reusable components and accessible digital
+                  design standards.
                 </li>
                 <li>
-                  Executed UI/UX design and development for digital initiatives,
-                  collaborating with partner developers to ensure high-quality
-                  delivery.
+                  Ensured high-quality delivery through continuous collaboration
+                  with partner development teams and adherence to Agile
+                  methodologies.
+                </li>
+                <li>
+                  Facilitated cloud platform migration and incremental
+                  scalability in alignment with organizational digital
+                  strategies.
+                </li>
+              </ul>
+            </div>
+            <div className="mt-4">
+              <span className="font-semibold">Key Achievements</span>
+              <ul className="ml-6 list-disc">
+                <li>
+                  Spearheaded integration of the Design System across major
+                  platforms, establishing a unified, scalable, reusable
+                  component framework that served as the foundational framework
+                  during the merger which significantly reducing development
+                  effort and accelerating time-to-market.
+                </li>
+                <li>
+                  Innovated and deployed a web-based onboarding solution
+                  integrated with HR systems, transforming and streamlining
+                  onboarding processes to enhance operational efficiency and
+                  user experience.
+                </li>
+                <li>
+                  Fostered a live documentation culture, enhancing collaboration
+                  and boosting organizational knowledge sharing across teams and
+                  departments.
                 </li>
               </ul>
             </div>
@@ -252,19 +290,17 @@ const LatestPage = () => {
             <div className="mt-2">
               <ul className="ml-6 list-disc">
                 <li>
-                  Led a UI/UX team in Cyberjaya collaborating with global teams
-                  across China, Europe, and the US to develop BPO service
-                  offerings.
+                  Managed global UI/UX teams delivering web and mobile solutions
+                  for business process outsourcing (BPO) clients in Asia,
+                  Europe, and the Americas.
                 </li>
                 <li>
-                  Managed support teams in Malaysia (Asia) and Mexico (Americas)
-                  during HP’s corporate separation, ensuring business
-                  continuity.
+                  Oversaw business continuity and support during corporate
+                  separation efforts, ensuring uninterrupted service delivery.
                 </li>
                 <li>
-                  Delivered UI/UX solutions for web and mobile across HP, HPE,
-                  and DXC projects, working closely with Java and .NET backend
-                  developers.
+                  Developed user-centric design solutions in collaboration with
+                  backend teams using Java and .NET technologies.
                 </li>
               </ul>
             </div>
@@ -286,20 +322,13 @@ const LatestPage = () => {
             <div className="mt-2">
               <ul className="ml-6 list-disc">
                 <li>
-                  Delivered and maintained web applications for clients
-                  including Tabung Haji, MARA, and HUKM.{' '}
+                  Delivered customized and scalable web applications for
+                  government and corporate clients including Tabung Haji, MARA,
+                  and HUKM.
                 </li>
                 <li>
-                  Collaborated with client-side developers to implement and
-                  support custom web solutions.
-                </li>
-                <li>
-                  Customized designs, structured layouts, and developed websites
-                  using both proprietary and open-source platforms.{' '}
-                </li>
-                <li>
-                  Conducted hands-on training for clients on CMS tools, and the
-                  company’s in-house Instant Web Development Platform.
+                  Provided client training on CMS tools and proprietary Instant
+                  Web Development platforms to enhance client self-sufficiency.
                 </li>
               </ul>
             </div>

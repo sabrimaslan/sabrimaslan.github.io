@@ -1,28 +1,35 @@
 import * as React from 'react'
+import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
 
 const LatestPage = () => {
   return (
     <>
       <aside className="relative mx-auto flex max-w-4xl flex-row md:mt-4">
-        <div className="p-6">
+        <div className="flex w-full justify-between p-6">
+          <Link
+            className="text-md align-text-bottom font-semibold no-underline underline-offset-4 hover:underline"
+            to="/"
+          >
+            <StaticImage
+              src="../images/scroll.png"
+              className="rotate-135"
+              placeholder="blurred"
+              height={24}
+              quality={100}
+              formats={['auto', 'webp', 'avif']}
+              alt="Scroll"
+            />{' '}
+            Home
+          </Link>
           <a
-            className="text-sm font-semibold uppercase underline underline-offset-4"
+            className="text-sm font-semibold uppercase underline-offset-4 hover:underline"
             href="/Sabri_Maslan_-_2025_-_Head_IT.pdf"
             target="_blank"
             rel="noopener noreferrer"
             download
           >
-            Download PDF{' '}
-            <StaticImage
-              src="../images/scroll.png"
-              className="rotate-90"
-              placeholder="blurred"
-              height={24}
-              quality={100}
-              formats={['auto', 'webp', 'avif']}
-              alt="Download"
-            />
+            Download PDF
           </a>
         </div>
       </aside>
@@ -31,7 +38,7 @@ const LatestPage = () => {
           <div className="items-center">
             <h1 className="text-2xl font-semibold">Sabri Maslan</h1>
             <h2 className="text-xl font-normal">
-              Head, Digital Engineering & Innovation
+              Head, IT Engineering & Digital Innovation
             </h2>
             <div className="md:flex md:flex-row">
               <div className="mt-4 flex max-w-7xl flex-col md:basis-1/2">

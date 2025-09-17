@@ -1,5 +1,6 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
+import { StaticImage } from 'gatsby-plugin-image'
 
 import Layout from '../../components/layout'
 
@@ -7,77 +8,40 @@ const WorksPage = () => {
   return (
     <Layout>
       <main className="h-fit min-h-fit gap-6 p-6 lg:col-span-10 lg:grid lg:h-screen lg:grid-cols-10 lg:content-center lg:p-0">
-        <div className="hidden lg:col-span-1 lg:block"></div>
+        <div className="hidden lg:col-span-2 lg:block"></div>
         <div className="lg:col-span-8">
           <div className="mb-5 font-[Sometype_Mono] text-6xl font-bold -tracking-[.175em] lg:mb-0">
-            Portfolio.
+            Whoops.
           </div>
         </div>
-        <div className="hidden lg:col-span-1 lg:block"></div>
-        <div className="hidden lg:col-span-1 lg:block"></div>
-        <section className="lg:col-span-4 lg:content-center">
-          <h4 className="text-md mb-4 font-[Open_Sans] font-semibold tracking-[.25em] uppercase">
-            Company
-          </h4>
-          <div className="mb-8 flex flex-col font-normal">
+        <div className="hidden lg:col-span-2 lg:block"></div>
+        <section className="lg:col-span-4 lg:content-start">
+          <p className="mb-4 text-xl font-bold">
+            Still working on finalizing this page.
+          </p>
+          <p className="mb-4">
+            Meanwhile, do explore what I have created thus far in the links
+            below. These projects show my hands-on engineering to build
+            impactful solutions.
+          </p>
+          <div className="flex justify-end pt-8">
             <Link
-              className="pb-1 text-xl font-semibold hover:underline hover:underline-offset-4"
-              to="time"
+              className="text-md align-text-bottom font-semibold no-underline underline-offset-4 hover:underline"
+              to="/portfolio"
             >
-              TIME dotCom Berhad
-            </Link>
-            <Link
-              className="pb-1 text-xl font-semibold hover:underline hover:underline-offset-4"
-              to="celcomdigi"
-            >
-              CelcomDigi Berhad
-            </Link>
-            <Link
-              className="pb-1 text-xl font-semibold hover:underline hover:underline-offset-4"
-              to="celcom"
-            >
-              Celcom Axiata Berhad
-            </Link>
-            <Link
-              className="pb-1 text-xl font-semibold hover:underline hover:underline-offset-4"
-              to="dxc"
-            >
-              DXC Technology
-            </Link>
-            <Link
-              className="pb-1 text-xl font-semibold hover:underline hover:underline-offset-4"
-              to="hpe"
-            >
-              Hewlett Packard Enterprise
-            </Link>
-            <Link
-              className="pb-1 text-xl font-semibold hover:underline hover:underline-offset-4"
-              to="hp"
-            >
-              Hewlett-Packard Inc.
+              View my portfolio
+              <StaticImage
+                src="../../images/scroll.png"
+                placeholder="blurred"
+                height={24}
+                quality={100}
+                formats={['auto', 'webp', 'avif']}
+                alt="Scroll"
+              />
             </Link>
           </div>
         </section>
-        <section className="lg:col-span-4">
-          <h4 className="text-md mb-4 font-[Open_Sans] font-semibold tracking-[.25em] uppercase">
-            Freelance
-          </h4>
-          <div className="flex flex-col font-normal">
-            <Link
-              className="pb-1 text-xl font-semibold hover:underline hover:underline-offset-4"
-              to="web"
-            >
-              <span className="font-light">On </span>Web
-            </Link>
-            <Link
-              className="pb-1 text-xl font-semibold hover:underline hover:underline-offset-4"
-              to="app"
-            >
-              <span className="font-light">On </span>App
-            </Link>
-          </div>
-        </section>
-        <div className="hidden lg:col-span-1 lg:block"></div>
+        <div className="hidden lg:col-span-2 lg:block"></div>
       </main>
     </Layout>
   )

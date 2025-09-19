@@ -37,7 +37,7 @@ const AboutPage = () => {
             </p>
             <p>This portfolio is a glimpse into that journey — one driven by commitment, collaboration, and continuous innovation.</p>
             <div className="text-md flex justify-end py-6 font-semibold">
-              Scroll{' '}
+              Scroll for FAQ{' '}
               <StaticImage
                 src="../images/scroll.png"
                 className="rotate-45"

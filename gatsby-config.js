@@ -10,6 +10,7 @@ module.exports = {
     `gatsby-plugin-image`,
     `gatsby-plugin-postcss`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-smoothscroll`,
     `gatsby-transformer-sharp`
   ]
 }

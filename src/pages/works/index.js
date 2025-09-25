@@ -7,7 +7,7 @@ import Layout from '../../components/layout'
 const WorksPage = () => {
   return (
     <Layout>
-      <main className="h-fit min-h-fit gap-6 p-6 lg:col-span-10 lg:grid lg:h-screen lg:grid-cols-10 lg:content-center lg:p-0">
+      <main className="h-screen content-center gap-6 p-6 lg:col-span-10 lg:grid lg:grid-cols-10 lg:content-center lg:p-0">
         <div className="hidden lg:col-span-2 lg:block"></div>
         <div className="lg:col-span-8">
           <div className="mb-5 font-[Sometype_Mono] text-6xl font-bold -tracking-[.175em] lg:mb-0">

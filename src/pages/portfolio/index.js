@@ -6,7 +6,7 @@ import Layout from '../../components/layout'
 const WorksPage = () => {
   return (
     <Layout>
-      <main className="h-fit min-h-fit gap-6 p-6 lg:col-span-10 lg:grid lg:h-screen lg:grid-cols-10 lg:content-center lg:p-0">
+      <main className="h-screen content-center gap-6 p-6 lg:col-span-10 lg:grid lg:h-screen lg:grid-cols-10 lg:content-center lg:p-0">
         <div className="hidden lg:col-span-1 lg:block"></div>
         <div className="lg:col-span-8">
           <div className="mb-5 font-[Sometype_Mono] text-6xl font-bold -tracking-[.175em] lg:mb-0">
@@ -16,9 +16,9 @@ const WorksPage = () => {
         <div className="hidden lg:col-span-1 lg:block"></div>
         <div className="hidden lg:col-span-1 lg:block"></div>
         <section className="lg:col-span-4 lg:content-center">
-          <h4 className="text-md mb-4 font-[Open_Sans] font-semibold tracking-[.25em] uppercase">
+          <h5 className="text-md mb-2 font-light tracking-[.125em] uppercase">
             Company
-          </h4>
+          </h5>
           <div className="mb-8 flex flex-col font-normal">
             <Link
               className="pb-1 text-xl font-semibold hover:underline hover:underline-offset-4"
@@ -59,9 +59,9 @@ const WorksPage = () => {
           </div>
         </section>
         <section className="lg:col-span-4">
-          <h4 className="text-md mb-4 font-[Open_Sans] font-semibold tracking-[.25em] uppercase">
+          <h5 className="text-md mb-2 font-light tracking-[.125em] uppercase">
             Freelance
-          </h4>
+          </h5>
           <div className="flex flex-col font-normal">
             <Link
               className="pb-1 text-xl font-semibold hover:underline hover:underline-offset-4"

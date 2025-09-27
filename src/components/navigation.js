@@ -3,6 +3,7 @@ import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
 import MenuIcon from '../components/menu'
 import CloseIcon from '../components/close'
+import UpRightIcon from '../components/upright'
 
 class Navigation extends Component {
   constructor(props) {
@@ -16,24 +17,21 @@ class Navigation extends Component {
 
   render() {
     return (
-      <nav className="justify-end lg:h-screen lg:col-span-2">
-        <div className="text-right fixed lg:hidden p-6 w-full lg:w-auto z-1">
-          <button
-            onClick={this.handleClick}
-            className="lg:hidden"
-          >
+      <nav className="justify-end lg:col-span-2 lg:h-screen">
+        <div className="fixed z-1 w-full p-6 text-right lg:hidden lg:w-auto">
+          <button onClick={this.handleClick} className="lg:hidden">
             <MenuIcon />
           </button>
         </div>
-        <div className="bg-white hidden text-right fixed lg:flex p-6 lg:p-0 h-full w-full lg:w-auto z-10" ref={this.overlay}>
-          <button
-            onClick={this.handleClick}
-            className="lg:hidden"
-          >
+        <div
+          className="fixed z-10 hidden h-full w-full bg-white p-6 text-right lg:flex lg:w-auto lg:p-0"
+          ref={this.overlay}
+        >
+          <button onClick={this.handleClick} className="lg:hidden">
             <CloseIcon />
           </button>
-          <div className='flex-col text-left h-screen items-stretch content-between'>
-            <div className="animate__fadeIn animate__animated justify-between py-6 lg:fixed lg:h-full lg:flex-col lg:px-6 lg:py-20 flex">
+          <div className="h-screen flex-col content-between items-stretch text-left">
+            <div className="animate__fadeIn animate__animated flex justify-between py-6 lg:fixed lg:h-full lg:flex-col lg:px-6 lg:py-20">
               <div className="order-last lg:order-first">
                 <StaticImage
                   src="../images/notion-face.png"
@@ -67,44 +65,28 @@ class Navigation extends Component {
                   About
                 </Link>
               </div>
-              <div className="hidden lg:block lg:flex-col lg:justify-end lg:px-6 lg:pt-25.5">
+              <div className="hidden lg:flex lg:px-6 lg:pt-25.5">
                 <a
                   className="text-md align-text-bottom font-semibold no-underline underline-offset-4 hover:underline"
                   href="https://www.linkedin.com/in/sabrimaslan"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  LinkedIn
-                  <StaticImage
-                    src="../images/scroll.png"
-                    className="rotate-270"
-                    placeholder="blurred"
-                    height={24}
-                    quality={100}
-                    formats={['auto', 'webp', 'avif']}
-                    alt="Scroll"
-                  />
+                  LinkedIn{' '}
                 </a>
+                <UpRightIcon />
               </div>
             </div>
-            <div className="animate__fadeIn animate__animated animate__slow lg:hidden lg:flex-col lg:justify-end lg:px-6 lg:pt-25.5">
+            <div className="animate__fadeIn animate__animated animate__slow lg:hidden flex lg:px-6 lg:pt-25.5">
               <a
                 className="text-md align-text-bottom font-semibold no-underline underline-offset-4 hover:underline"
                 href="https://www.linkedin.com/in/sabrimaslan"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                LinkedIn
-                <StaticImage
-                  src="../images/scroll.png"
-                  className="rotate-270"
-                  placeholder="blurred"
-                  height={24}
-                  quality={100}
-                  formats={['auto', 'webp', 'avif']}
-                  alt="Scroll"
-                />
+                LinkedIn{' '}
               </a>
+              <UpRightIcon />
             </div>
           </div>
         </div>

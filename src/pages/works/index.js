@@ -1,7 +1,6 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
-import { StaticImage } from 'gatsby-plugin-image'
-
+import DownRightIcon from '../../components/downright'
 import Layout from '../../components/layout'
 
 const WorksPage = () => {
@@ -11,7 +10,7 @@ const WorksPage = () => {
         <div className="hidden lg:col-span-2 lg:block"></div>
         <div className="lg:col-span-8">
           <div className="mb-5 font-[Sometype_Mono] text-6xl font-bold -tracking-[.175em] lg:mb-0">
-            Whoops.
+            Whoops
           </div>
         </div>
         <div className="hidden lg:col-span-2 lg:block"></div>
@@ -29,16 +28,9 @@ const WorksPage = () => {
               className="text-md align-text-bottom font-semibold no-underline underline-offset-4 hover:underline"
               to="/portfolio"
             >
-              View my portfolio
-              <StaticImage
-                src="../../images/scroll.png"
-                placeholder="blurred"
-                height={24}
-                quality={100}
-                formats={['auto', 'webp', 'avif']}
-                alt="Scroll"
-              />
+              View my portfolio{' '}
             </Link>
+            <DownRightIcon />
           </div>
         </section>
         <div className="hidden lg:col-span-2 lg:block"></div>

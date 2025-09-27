@@ -10,7 +10,7 @@ const WorksPage = () => {
         <div className="hidden lg:col-span-1 lg:block"></div>
         <div className="lg:col-span-8">
           <div className="mb-5 font-[Sometype_Mono] text-6xl font-bold -tracking-[.175em] lg:mb-0">
-            Portfolio.
+            Portfolio
           </div>
         </div>
         <div className="hidden lg:col-span-1 lg:block"></div>

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Close = () => (
+const UpRight = () => (
   <svg
     width="24"
     height="24"
@@ -9,20 +9,19 @@ const Close = () => (
     xmlns="http://www.w3.org/2000/svg"
   >
     <path
-      d="M7.25 7.25006L16.75 16.7499"
+      d="M7.25012 16.75L16.75 7.25003"
       stroke="#080808"
       stroke-width="2"
       stroke-linecap="square"
       stroke-linejoin="round"
     />
     <path
-      d="M7.25 16.75L16.7499 7.25003"
+      d="M7.1554 6.82873H17.1554V16.8288"
       stroke="#080808"
       stroke-width="2"
       stroke-linecap="square"
-      stroke-linejoin="round"
     />
   </svg>
 )
 
-export default Close
+export default UpRight

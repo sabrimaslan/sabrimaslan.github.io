@@ -75,7 +75,7 @@ const AboutPage = () => {
           <div className="hidden lg:col-span-1 lg:block"></div>
           <aside className="lg:col-span-2 lg:content-center">
             <div className="pb-2 font-[Sometype_Mono] text-6xl font-bold -tracking-[.175em]">
-              FAQ.
+              FAQ
             </div>
             <div className="hidden text-2xl font-semibold lg:block">&nbsp;</div>
             <div className="hidden text-xl font-normal lg:block">&nbsp;</div>

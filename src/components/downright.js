@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Close = () => (
+const DownRight = () => (
   <svg
     width="24"
     height="24"
@@ -16,13 +16,12 @@ const Close = () => (
       stroke-linejoin="round"
     />
     <path
-      d="M7.25 16.75L16.7499 7.25003"
+      d="M17.1621 7.16673V17.1667H7.16211"
       stroke="#080808"
       stroke-width="2"
       stroke-linecap="square"
-      stroke-linejoin="round"
     />
   </svg>
 )
 
-export default Close
+export default DownRight

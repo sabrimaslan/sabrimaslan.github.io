@@ -39,7 +39,7 @@ const IndexPage = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setTextIdx((i) => (i + 1) % words.length)
-    }, 2500)
+    }, 1000)
     return () => clearInterval(interval)
   }, [])
 

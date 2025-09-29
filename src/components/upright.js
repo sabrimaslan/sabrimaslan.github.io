@@ -11,15 +11,15 @@ const UpRight = () => (
     <path
       d="M7.25012 16.75L16.75 7.25003"
       stroke="#080808"
-      stroke-width="2"
-      stroke-linecap="square"
-      stroke-linejoin="round"
+      strokeWidth="2"
+      strokeLinecap="square"
+      strokeLinejoin="round"
     />
     <path
       d="M7.1554 6.82873H17.1554V16.8288"
       stroke="#080808"
-      stroke-width="2"
-      stroke-linecap="square"
+      strokeWidth="2"
+      strokeLinecap="square"
     />
   </svg>
 )

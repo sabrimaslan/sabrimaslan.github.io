@@ -42,7 +42,7 @@ class Navigation extends Component {
                   alt="Sabri Maslan"
                 />
               </div>
-              <div className="flex flex-col justify-center lg:basis-1/3 lg:px-6">
+              <div className="flex flex-col justify-center lg:basis-1/3 lg:px-4">
                 <Link
                   className="pb-1 text-xl font-normal hover:underline hover:underline-offset-4"
                   activeClassName="font-semibold"
@@ -65,28 +65,19 @@ class Navigation extends Component {
                   About
                 </Link>
               </div>
-              <div className="hidden lg:flex lg:px-6 lg:pt-25.5">
-                <a
-                  className="text-md align-text-bottom font-semibold no-underline underline-offset-4 hover:underline"
-                  href="https://www.linkedin.com/in/sabrimaslan"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  LinkedIn{' '}
-                </a>
-                <UpRightIcon />
+              <div className="fixed top-60 lg:relative lg:top-auto lg:flex lg:px-4 lg:pt-25.5">
+                <div className='flex'>
+                  <a
+                    className="text-md align-text-bottom font-semibold no-underline underline-offset-4 hover:underline"
+                    href="https://www.linkedin.com/in/sabrimaslan"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    LinkedIn{' '}
+                  </a>
+                  <UpRightIcon />
+                </div>
               </div>
-            </div>
-            <div className="animate__fadeIn animate__animated animate__slow lg:hidden flex lg:px-6 lg:pt-25.5">
-              <a
-                className="text-md align-text-bottom font-semibold no-underline underline-offset-4 hover:underline"
-                href="https://www.linkedin.com/in/sabrimaslan"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                LinkedIn{' '}
-              </a>
-              <UpRightIcon />
             </div>
           </div>
         </div>

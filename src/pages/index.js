@@ -4,6 +4,7 @@ import scrollTo from 'gatsby-plugin-smoothscroll'
 import UpIcon from '../components/up'
 import DownIcon from '../components/down'
 import Layout from '../components/layout'
+import PageNav from '../components/pagenav'
 
 const words = [
   { tag: 'Innovate' },
@@ -30,42 +31,7 @@ const IndexPage = () => {
   return (
     <Layout>
       <main className="snap-container px-6 lg:col-span-10 lg:p-0">
-        <aside className="fixed right-0 hidden h-screen lg:col-span-1 lg:block lg:content-center">
-          <div className="flex flex-col font-semibold lg:px-6">
-            <div className="group flex">
-              <button
-                className="invisible cursor-pointer no-underline underline-offset-4 group-hover:visible hover:underline"
-                onClick={() => scrollTo('#prologue')}
-              >
-                Prologue{' '}
-              </button>
-              <span className="underline underline-offset-4">
-                &nbsp;&nbsp;&nbsp;
-              </span>
-            </div>
-          </div>
-          <div className="flex flex-col font-semibold lg:px-6">
-            <div className="group flex">
-              <button
-                className="invisible cursor-pointer no-underline underline-offset-4 group-hover:visible hover:underline"
-                onClick={() => scrollTo('#philosophy')}
-              >
-                Philosophy{' '}
-              </button>
-              <span className="underline underline-offset-4">
-                &nbsp;&nbsp;&nbsp;
-              </span>
-            </div>
-          </div>
-          {/* <div className="flex flex-col lg:px-6 font-semibold group">
-            <button
-              className="cursor-pointer no-underline underline-offset-4 hover:underline invisible group-hover:visible"
-              onClick={() => scrollTo('#philosophy')}
-            >
-              Philosophy
-            </button>
-          </div> */}
-        </aside>
+        <PageNav />
         <section
           className="snap-section h-screen min-h-fit content-center gap-6 lg:grid lg:grid-cols-10"
           id="prologue"

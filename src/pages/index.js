@@ -1,8 +1,5 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'gatsby'
-import scrollTo from 'gatsby-plugin-smoothscroll'
-import UpIcon from '../components/up'
-import DownIcon from '../components/down'
 import Layout from '../components/layout'
 import PageNav from '../components/pagenav'
 
@@ -96,7 +93,13 @@ const IndexPage = () => {
             <p className="animate__animated animate__fadeInUp animate__slow mb-0">
               If you’re building something ambitious — I’m in.
             </p>
-            <div className="flex justify-between py-6">
+            {/* <div className="flex justify-between py-6">
+              <Link
+                className="text-md animate__animated animate__fadeInUp animate__slow align-text-bottom font-semibold no-underline underline-offset-4 hover:underline"
+                to="/latest"
+              >
+                View my resume
+              </Link>
               <div className="text-md animate__animated animate__fadeInUp animate__slower flex font-semibold">
                 <button
                   className="cursor-pointer align-text-bottom no-underline underline-offset-4 hover:underline"
@@ -108,7 +111,7 @@ const IndexPage = () => {
                   <DownIcon />
                 </span>
               </div>
-            </div>
+            </div> */}
           </article>
           <div className="hidden lg:col-span-2 lg:block"></div>
         </section>
@@ -116,14 +119,14 @@ const IndexPage = () => {
           className="snap-section h-screen min-h-fit gap-6 py-10 lg:grid lg:h-screen lg:grid-cols-10 lg:content-center lg:py-20"
           id="philosophy"
         >
-          <div className="hidden lg:col-span-2 lg:block"></div>
-          <div className="lg:col-span-8">
+          {/* <div className="hidden lg:col-span-2 lg:block"></div> */}
+          <div className="lg:col-span-10">
             <h4 className="pb-6 text-2xl font-semibold lg:pb-0">
               Leadership Philosophy
             </h4>
           </div>
-          <div className="hidden lg:col-span-2 lg:block"></div>
-          <section className="lg:col-span-4 lg:content-start">
+          {/* <div className="hidden lg:col-span-2 lg:block"></div> */}
+          <article className="lg:col-span-4 lg:content-start">
             <h5 className="text-lg font-semibold">Empowering Talent:</h5>
             <p className="mb-4">
               I believe that the true currency of a high-performing organization
@@ -139,8 +142,10 @@ const IndexPage = () => {
               shared objectives, ensuring every stakeholder becomes an agent of
               change.
             </p>
+          </article>
+          <article className="lg:col-span-4 lg:content-start">
             <h5 className="text-lg font-semibold">
-              Strategic Vision Executed with Technical Excellence:
+              Strategic Execution with Technical Excellence:
             </h5>
             <p className="mb-4">
               Business strategy only thrives through rigorous technical
@@ -154,18 +159,7 @@ const IndexPage = () => {
               flexes between coach, architect, and strategist, depending on what
               teams and outcomes demand in the moment.
             </p>
-            <div className="flex justify-between py-6">
-              <div className="text-md animate__animated animate__fadeInUp animate__slower flex justify-end font-semibold">
-                <button
-                  className="cursor-pointer align-text-bottom no-underline underline-offset-4 hover:underline"
-                  onClick={() => scrollTo('#achievements')}
-                >
-                  Achievements{' '}
-                </button>
-                <span className="animate-bounce px-2">
-                  <DownIcon />
-                </span>
-              </div>
+            {/* <div className="flex justify-between py-6">
               <div className="text-md animate__animated animate__fadeInUp animate__slower flex justify-end font-semibold">
                 <button
                   className="cursor-pointer align-text-bottom no-underline underline-offset-4 hover:underline"
@@ -177,8 +171,19 @@ const IndexPage = () => {
                   <UpIcon />
                 </span>
               </div>
-            </div>
-          </section>
+              <div className="text-md animate__animated animate__fadeInUp animate__slower flex justify-end font-semibold">
+                <button
+                  className="cursor-pointer align-text-bottom no-underline underline-offset-4 hover:underline"
+                  onClick={() => scrollTo('#achievements')}
+                >
+                  Achievements{' '}
+                </button>
+                <span className="animate-bounce px-2">
+                  <DownIcon />
+                </span>
+              </div>
+            </div> */}
+          </article>
           <div className="hidden lg:col-span-2 lg:block"></div>
         </section>
         <section

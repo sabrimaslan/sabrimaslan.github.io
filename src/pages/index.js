@@ -5,7 +5,12 @@ import UpIcon from '../components/up'
 import DownIcon from '../components/down'
 import Layout from '../components/layout'
 
-const words = [{ tag: 'Innovate' }, { tag: 'Develop' }, { tag: 'Integrate' }, { tag: 'Execute' }]
+const words = [
+  { tag: 'Innovate' },
+  { tag: 'Develop' },
+  { tag: 'Integrate' },
+  { tag: 'Execute' }
+]
 
 const IndexPage = () => {
   const [word, setWord] = useState(words[0])
@@ -25,27 +30,52 @@ const IndexPage = () => {
   return (
     <Layout>
       <main className="snap-container px-6 lg:col-span-10 lg:p-0">
-        <aside className="hidden lg:col-span-1 lg:block lg:content-center h-screen fixed right-0">
-          <div className="flex flex-col lg:px-6 font-semibold">
+        <aside className="fixed right-0 hidden h-screen lg:col-span-1 lg:block lg:content-center">
+          <div className="flex flex-col font-semibold lg:px-6">
+            <div className="group flex">
+              <button
+                className="invisible cursor-pointer no-underline underline-offset-4 group-hover:visible hover:underline"
+                onClick={() => scrollTo('#prologue')}
+              >
+                Prologue{' '}
+              </button>
+              <span className="underline underline-offset-4">
+                &nbsp;&nbsp;&nbsp;
+              </span>
+            </div>
+          </div>
+          <div className="flex flex-col font-semibold lg:px-6">
+            <div className="group flex">
+              <button
+                className="invisible cursor-pointer no-underline underline-offset-4 group-hover:visible hover:underline"
+                onClick={() => scrollTo('#philosophy')}
+              >
+                Philosophy{' '}
+              </button>
+              <span className="underline underline-offset-4">
+                &nbsp;&nbsp;&nbsp;
+              </span>
+            </div>
+          </div>
+          {/* <div className="flex flex-col lg:px-6 font-semibold group">
             <button
-              className="cursor-pointer text-left no-underline underline-offset-4 hover:underline"
-              onClick={() => scrollTo('#prologue')}
-            >
-              Prologue{' '}
-            </button>
-            <button
-              className="cursor-pointer text-left no-underline underline-offset-4 hover:underline"
+              className="cursor-pointer no-underline underline-offset-4 hover:underline invisible group-hover:visible"
               onClick={() => scrollTo('#philosophy')}
             >
               Philosophy
             </button>
-          </div>
+          </div> */}
         </aside>
-        <section className="snap-section h-screen min-h-fit content-center gap-6 lg:grid lg:grid-cols-10" id="prologue">
+        <section
+          className="snap-section h-screen min-h-fit content-center gap-6 lg:grid lg:grid-cols-10"
+          id="prologue"
+        >
           <div className="hidden lg:col-span-1 lg:block"></div>
           <aside className="lg:col-span-3 lg:content-center">
             <div className="animate__animated animate__fadeInUp animate__faster pb-2 font-[Sometype_Mono] text-6xl font-bold -tracking-[.175em]">
-              <span className="animate__animated animate__fadeInUp animate__slow">{word.tag}</span>
+              <span className="animate__animated animate__fadeInUp animate__slow">
+                {word.tag}
+              </span>
             </div>
             <div className="animate__animated animate__fadeInUp animate__fast text-2xl font-semibold">
               Sabri Maslan
@@ -53,7 +83,7 @@ const IndexPage = () => {
             <div className="animate__animated animate__fadeInUp text-xl font-normal">
               Head, Engineering & Innovation
             </div>
-            <div className='mt-6'>
+            <div className="mt-6">
               <Link
                 className="text-md animate__animated animate__fadeInUp animate__slow align-text-bottom font-semibold no-underline underline-offset-4 hover:underline"
                 to="/latest"

@@ -6,6 +6,25 @@ import DownIcon from '../components/down'
 import Layout from '../components/layout'
 import PageNav from '../components/pagenav'
 
+const anchors = [
+  {
+    name: "Prologue",
+    link: "prologue"
+  },
+  {
+    name: "Philosophy",
+    link: "philosophy"
+  },
+  {
+    name: "Achievements",
+    link: "achievements"
+  },
+  {
+    name: "Testimonials",
+    link: "testimonials"
+  }
+]
+
 const words = [
   { tag: 'Innovate' },
   { tag: 'Develop' },
@@ -31,7 +50,7 @@ const IndexPage = () => {
   return (
     <Layout>
       <main className="snap-container px-6 lg:col-span-10 lg:p-0">
-        <PageNav />
+        <PageNav anchors={anchors} />
         <section
           className="snap-section h-screen min-h-fit content-center gap-6 lg:grid lg:grid-cols-10"
           id="prologue"

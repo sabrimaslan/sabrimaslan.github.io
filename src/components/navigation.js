@@ -18,7 +18,7 @@ class Navigation extends Component {
   render() {
     return (
       <nav className="justify-end lg:col-span-2 lg:h-screen">
-        <div className="fixed z-1 w-full p-6 text-right lg:hidden lg:w-auto">
+        <div className="fixed z-5 w-full p-6 text-right lg:hidden lg:w-auto">
           <button onClick={this.handleClick} className="lg:hidden">
             <MenuIcon />
           </button>

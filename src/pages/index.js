@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
+import TopIcon from '../components/top'
 import UpIcon from '../components/up'
 import DownIcon from '../components/down'
 import Layout from '../components/layout'
@@ -131,13 +132,11 @@ const IndexPage = () => {
           className="snap-section h-screen min-h-fit content-center gap-6 py-10 lg:grid lg:grid-cols-10 lg:py-20"
           id="philosophy"
         >
-          {/* <div className="hidden lg:col-span-2 lg:block"></div> */}
           <div className="lg:col-span-10">
             <h4 className="pb-6 text-2xl font-semibold lg:pb-0">
               Leadership Philosophy
             </h4>
           </div>
-          {/* <div className="hidden lg:col-span-2 lg:block"></div> */}
           <article className="lg:col-span-4 lg:content-start">
             <h5 className="text-lg font-semibold">Empowering Talent:</h5>
             <p className="mb-4">
@@ -185,30 +184,6 @@ const IndexPage = () => {
                 <DownIcon />
               </button>
             </div>
-            {/* <div className="flex justify-between py-6">
-              <div className="text-md animate__animated animate__fadeInUp animate__slower flex justify-end font-semibold">
-                <button
-                  className="cursor-pointer align-text-bottom no-underline underline-offset-4 hover:underline"
-                  onClick={() => scrollTo('#prologue')}
-                >
-                  Prologue{' '}
-                </button>
-                <span className="animate-bounce px-2">
-                  <UpIcon />
-                </span>
-              </div>
-              <div className="text-md animate__animated animate__fadeInUp animate__slower flex justify-end font-semibold">
-                <button
-                  className="cursor-pointer align-text-bottom no-underline underline-offset-4 hover:underline"
-                  onClick={() => scrollTo('#achievements')}
-                >
-                  Achievements{' '}
-                </button>
-                <span className="animate-bounce px-2">
-                  <DownIcon />
-                </span>
-              </div>
-            </div> */}
           </article>
           <div className="hidden lg:col-span-2 lg:block"></div>
         </section>
@@ -216,13 +191,11 @@ const IndexPage = () => {
           className="snap-section h-screen min-h-fit content-center gap-6 py-10 lg:grid lg:grid-cols-10 lg:py-20"
           id="achievements"
         >
-          {/* <div className="hidden lg:col-span-2 lg:block"></div> */}
           <div className="lg:col-span-10">
             <h4 className="pb-6 text-2xl font-semibold lg:pb-0">
               Key Achievements
             </h4>
           </div>
-          {/* <div className="hidden lg:col-span-2 lg:block"></div> */}
           <article className="lg:col-span-4 lg:content-start">
             <ul className="ml-4 list-disc">
               <li className="mb-4">
@@ -278,15 +251,16 @@ const IndexPage = () => {
           <div className="hidden lg:col-span-2 lg:block"></div>
         </section>
         <section
-          className="snap-section h-screen min-h-fit content-center gap-6 py-10 lg:py-20"
+          className="snap-section h-screen min-h-fit content-center gap-6 py-10 lg:grid lg:grid-cols-10 lg:py-20"
           id="testimonials"
         >
-          {/* <div className="hidden lg:col-span-2 lg:block"></div> */}
           <div className="lg:col-span-8">
-            <h4 className="pb-6 text-2xl font-semibold">Testimonials</h4>
+            <h4 className="pb-6 text-2xl font-semibold lg:pb-0">
+              Testimonials
+            </h4>
           </div>
           <div className="hidden lg:col-span-2 lg:block"></div>
-          <div className="no-scrollbar flex flex-row overflow-x-auto lg:px-4">
+          <article className="no-scrollbar flex flex-row overflow-x-auto lg:col-span-10 lg:px-4">
             <div className="mr-4 min-w-[234px]">
               <StaticImage
                 src="../images/testimonial-07-alif.png"
@@ -375,16 +349,6 @@ const IndexPage = () => {
                 alt="Putra"
               />
             </div>
-            {/* <div className="min-w-[384px] pr-4">
-              <StaticImage
-                src="../images/testimonial-09-zee.png"
-                placeholder="blurred"
-                width={384}
-                quality={100}
-                formats={['auto', 'webp', 'avif']}
-                alt="Putra"
-              />
-            </div> */}
             <div className="mr-4 min-w-[234px]">
               <StaticImage
                 src="../images/testimonial-11-nazhan.png"
@@ -423,73 +387,17 @@ const IndexPage = () => {
                 alt="Ainna"
               />
             </div>
-          </div>
-          {/* <article className="lg:col-span-8 lg:content-start">
-            <StaticImage
-              src="../images/testimonial-01-ashbil.png"
-              placeholder="blurred"
-              width={234}
-              quality={100}
-              formats={['auto', 'webp', 'avif']}
-              alt="Ashbil"
-            />
-            <StaticImage
-              src="../images/testimonial-02-zee.png"
-              placeholder="blurred"
-              width={234}
-              quality={100}
-              formats={['auto', 'webp', 'avif']}
-              alt="Zee"
-            />
-            <StaticImage
-              src="../images/testimonial-03-alif.png"
-              placeholder="blurred"
-              width={288}
-              quality={100}
-              formats={['auto', 'webp', 'avif']}
-              alt="Alif"
-            />
-            <StaticImage
-              src="../images/testimonial-04-fazlinda.png"
-              placeholder="blurred"
-              width={286}
-              quality={100}
-              formats={['auto', 'webp', 'avif']}
-              alt="Fazlinda"
-            />
-            <StaticImage
-              src="../images/testimonial-05-yvonne.png"
-              placeholder="blurred"
-              width={286}
-              quality={100}
-              formats={['auto', 'webp', 'avif']}
-              alt="Yvonne"
-            />
-            <StaticImage
-              src="../images/testimonial-06-esther.png"
-              placeholder="blurred"
-              width={286}
-              quality={100}
-              formats={['auto', 'webp', 'avif']}
-              alt="Esther"
-            />
-            <StaticImage
-              src="../images/testimonial-07-alif.png"
-              placeholder="blurred"
-              width={234}
-              quality={100}
-              formats={['auto', 'webp', 'avif']}
-              alt="Alif"
-            />
-            <StaticImage
-              src="../images/testimonial-08-azuree.png"
-              placeholder="blurred"
-              width={286}
-              quality={100}
-              formats={['auto', 'webp', 'avif']}
-              alt="Azuree"
-            />
-          </article> */}
+          </article>
+          <aside className="lg:col-span-8 lg:content-start">
+            <div className="text-md flex justify-end gap-2 font-semibold">
+              <button
+                className="cursor-pointer align-text-bottom no-underline underline-offset-4 hover:underline"
+                onClick={() => scrollTo('#prologue')}
+              >
+                <TopIcon />
+              </button>
+            </div>
+          </aside>
           <div className="hidden lg:col-span-2 lg:block"></div>
         </section>
       </main>

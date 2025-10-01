@@ -1,5 +1,5 @@
 import * as React from 'react'
-import UpIcon from '../components/up'
+import TopIcon from '../components/top'
 import DownIcon from '../components/down'
 import Layout from '../components/layout'
 import PageNav from '../components/pagenav'
@@ -75,17 +75,6 @@ const AboutPage = () => {
                 <DownIcon />
               </button>
             </div>
-            {/* <div className="text-md flex justify-end py-6 font-semibold">
-              <button
-                className="cursor-pointer align-text-bottom no-underline underline-offset-4 hover:underline"
-                onClick={() => scrollTo('#faq')}
-              >
-                FAQ{' '}
-              </button>
-              <span className="animate-bounce px-2">
-                <DownIcon />
-              </span>
-            </div> */}
           </div>
           <div className="hidden lg:col-span-2 lg:block"></div>
         </section>
@@ -146,20 +135,9 @@ const AboutPage = () => {
                   className="cursor-pointer align-text-bottom no-underline underline-offset-4 hover:underline"
                   onClick={() => scrollTo('#epilogue')}
                 >
-                  <UpIcon />
+                  <TopIcon />
                 </button>
               </div>
-              {/* <div className="text-md flex justify-end py-6 font-semibold">
-                <button
-                  className="cursor-pointer align-text-bottom no-underline underline-offset-4 hover:underline"
-                  onClick={() => scrollTo('#about')}
-                >
-                  About{' '}
-                </button>
-                <span className="animate-bounce px-2">
-                  <UpIcon />
-                </span>
-              </div> */}
             </div>
           </section>
           <div className="hidden lg:col-span-2 lg:block"></div>

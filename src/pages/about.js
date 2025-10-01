@@ -1,16 +1,29 @@
 import * as React from 'react'
-import scrollTo from 'gatsby-plugin-smoothscroll'
 import UpIcon from '../components/up'
 import DownIcon from '../components/down'
 import Layout from '../components/layout'
+import PageNav from '../components/pagenav'
+import scrollTo from 'gatsby-plugin-smoothscroll'
+
+const anchors = [
+  {
+    name: 'Epilogue',
+    link: 'epilogue',
+  },
+  {
+    name: 'FAQ',
+    link: 'faq',
+  },
+]
 
 const AboutPage = () => {
   return (
     <Layout>
       <main className="snap-container p-6 lg:col-span-10 lg:p-0">
-        <div
+        <PageNav anchors={anchors} />
+        <section
           className="snap-section h-fit min-h-fit gap-6 lg:grid lg:h-screen lg:grid-cols-10 lg:content-center"
-          id="about"
+          id="epilogue"
         >
           <div className="lg:col-span-10">
             <h4 className="pb-6 text-2xl font-semibold lg:pb-0">Epilogue</h4>
@@ -54,7 +67,15 @@ const AboutPage = () => {
               This portfolio is a glimpse into that journey — one driven by
               commitment, collaboration, and continuous innovation.
             </p>
-            <div className="text-md flex justify-end py-6 font-semibold">
+            <div className="text-md flex justify-end font-semibold">
+              <button
+                className="animate-bounce cursor-pointer align-text-bottom no-underline underline-offset-4 hover:underline"
+                onClick={() => scrollTo('#faq')}
+              >
+                <DownIcon />
+              </button>
+            </div>
+            {/* <div className="text-md flex justify-end py-6 font-semibold">
               <button
                 className="cursor-pointer align-text-bottom no-underline underline-offset-4 hover:underline"
                 onClick={() => scrollTo('#faq')}
@@ -64,11 +85,11 @@ const AboutPage = () => {
               <span className="animate-bounce px-2">
                 <DownIcon />
               </span>
-            </div>
+            </div> */}
           </div>
           <div className="hidden lg:col-span-2 lg:block"></div>
-        </div>
-        <div
+        </section>
+        <section
           className="snap-section h-screen content-center gap-5 lg:grid lg:grid-cols-10"
           id="faq"
         >
@@ -120,7 +141,15 @@ const AboutPage = () => {
                   <span className="ml-3">Every time.</span>
                 </li>
               </ul>
-              <div className="text-md flex justify-end py-6 font-semibold">
+              <div className="text-md animate__animated animate__fadeInUp animate__slower flex justify-end gap-2 font-semibold">
+                <button
+                  className="cursor-pointer align-text-bottom no-underline underline-offset-4 hover:underline"
+                  onClick={() => scrollTo('#epilogue')}
+                >
+                  <UpIcon />
+                </button>
+              </div>
+              {/* <div className="text-md flex justify-end py-6 font-semibold">
                 <button
                   className="cursor-pointer align-text-bottom no-underline underline-offset-4 hover:underline"
                   onClick={() => scrollTo('#about')}
@@ -130,11 +159,11 @@ const AboutPage = () => {
                 <span className="animate-bounce px-2">
                   <UpIcon />
                 </span>
-              </div>
+              </div> */}
             </div>
           </section>
           <div className="hidden lg:col-span-2 lg:block"></div>
-        </div>
+        </section>
       </main>
     </Layout>
   )

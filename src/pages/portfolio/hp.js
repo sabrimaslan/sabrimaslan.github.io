@@ -709,5 +709,5 @@ const CompanyHPPage = () => {
 export default CompanyHPPage
 
 export const Head = () => (
-  <title>Works - Hewlett-Packard Inc. : Sabri Maslan</title>
+  <title>Portfolio for Hewlett-Packard Inc. : Sabri Maslan</title>
 )

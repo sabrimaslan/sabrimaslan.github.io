@@ -349,4 +349,4 @@ const CompanyTimePage = () => {
 
 export default CompanyTimePage
 
-export const Head = () => <title>Works - TIME dotCom : Sabri Maslan</title>
+export const Head = () => <title>Portfolio for TIME dotCom : Sabri Maslan</title>

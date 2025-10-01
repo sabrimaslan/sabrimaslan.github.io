@@ -350,5 +350,5 @@ const CompanyCelcomDigiPage = () => {
 export default CompanyCelcomDigiPage
 
 export const Head = () => (
-  <title>Works - CelcomDigi Berhad : Sabri Maslan</title>
+  <title>Portfolio for CelcomDigi Berhad : Sabri Maslan</title>
 )

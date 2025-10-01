@@ -5,8 +5,8 @@ import Layout from '../components/layout'
 const NotFoundPage = () => {
   return (
     <Layout>
-      <main className="flex w-full lg:col-span-10 lg:row-span-12 flex-row items-center justify-center">
-        <h1 className="font-[Sometype_Mono] text-8xl font-bold -tracking-[.175em] text-center">
+      <main className="flex h-screen w-full flex-row items-center justify-center lg:col-span-10 lg:row-span-12">
+        <h1 className="text-center font-[Sometype_Mono] text-8xl font-bold -tracking-[.175em]">
           Sorry.
         </h1>
         <div className="absolute mt-4 rotate-8 bg-[#FF6A3D] px-2 text-sm">

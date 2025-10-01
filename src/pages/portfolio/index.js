@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 
 import Layout from '../../components/layout'
 
-const WorksPage = () => {
+const PortfolioPage = () => {
   return (
     <Layout>
       <main className="h-screen content-center gap-6 p-6 lg:col-span-10 lg:grid lg:h-screen lg:grid-cols-10 lg:content-center lg:p-0">
@@ -83,6 +83,6 @@ const WorksPage = () => {
   )
 }
 
-export default WorksPage
+export default PortfolioPage
 
-export const Head = () => <title>Works : Sabri Maslan</title>
+export const Head = () => <title>Portfolio : Sabri Maslan</title>

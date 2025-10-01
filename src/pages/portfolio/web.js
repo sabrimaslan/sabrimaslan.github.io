@@ -507,4 +507,4 @@ const OnWebPage = () => {
 
 export default OnWebPage
 
-export const Head = () => <title>Freelance - On Web : Sabri Maslan</title>
+export const Head = () => <title>Portfolio on Web : Sabri Maslan</title>

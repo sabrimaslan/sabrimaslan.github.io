@@ -45,5 +45,5 @@ const OnPrintsPage = () => {
 export default OnPrintsPage
 
 export const Head = () => (
-  <title>Freelance - On Prints : Sabri Maslan</title>
+  <title>Portfolio on Prints : Sabri Maslan</title>
 )

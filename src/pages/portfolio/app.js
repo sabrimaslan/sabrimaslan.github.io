@@ -243,4 +243,4 @@ const OnAppPage = () => {
 
 export default OnAppPage
 
-export const Head = () => <title>Freelance - On App : Sabri Maslan</title>
+export const Head = () => <title>Portfolio on App : Sabri Maslan</title>

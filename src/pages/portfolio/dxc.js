@@ -152,4 +152,4 @@ const CompanyDXCPage = () => {
 
 export default CompanyDXCPage
 
-export const Head = () => <title>Works - DXC Technology : Sabri Maslan</title>
+export const Head = () => <title>Portfolio for DXC Technology : Sabri Maslan</title>

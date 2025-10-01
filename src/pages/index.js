@@ -106,25 +106,6 @@ const IndexPage = () => {
                 <DownIcon />
               </button>
             </div>
-            {/* <div className="flex justify-between py-6">
-              <Link
-                className="text-md animate__animated animate__fadeInUp animate__slow align-text-bottom font-semibold no-underline underline-offset-4 hover:underline"
-                to="/latest"
-              >
-                View my resume
-              </Link>
-              <div className="text-md animate__animated animate__fadeInUp animate__slower flex font-semibold">
-                <button
-                  className="cursor-pointer align-text-bottom no-underline underline-offset-4 hover:underline"
-                  onClick={() => scrollTo('#philosophy')}
-                >
-                  Philosophy{' '}
-                </button>
-                <span className="animate-bounce px-2">
-                  <DownIcon />
-                </span>
-              </div>
-            </div> */}
           </article>
           <div className="hidden lg:col-span-2 lg:block"></div>
         </section>
@@ -170,7 +151,7 @@ const IndexPage = () => {
               flexes between coach, architect, and strategist, depending on what
               teams and outcomes demand in the moment.
             </p>
-            <div className="text-md animate__animated animate__fadeInUp animate__slower flex justify-end gap-2 font-semibold">
+            <div className="text-md flex justify-end gap-2 font-semibold">
               <button
                 className="cursor-pointer align-text-bottom no-underline underline-offset-4 hover:underline"
                 onClick={() => scrollTo('#prologue')}

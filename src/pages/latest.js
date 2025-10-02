@@ -5,23 +5,28 @@ import { StaticImage } from 'gatsby-plugin-image'
 const LatestPage = () => {
   return (
     <>
-      <aside className="relative mx-auto flex max-w-4xl flex-row md:mt-4">
+      <nav className="relative mx-auto flex max-w-4xl flex-row md:mt-4">
         <div className="flex w-full justify-between p-6">
-          <Link
-            className="text-md align-text-bottom font-semibold no-underline underline-offset-4 hover:underline"
-            to="/"
-          >
-            <StaticImage
-              src="../images/scroll.png"
-              className="rotate-135"
-              placeholder="blurred"
-              height={24}
-              quality={100}
-              formats={['auto', 'webp', 'avif']}
-              alt="Scroll"
-            />{' '}
-            Home
-          </Link>
+          <div>
+            <Link
+              className="text-md align-text-bottom font-semibold no-underline mr-2 underline-offset-4 hover:underline"
+              to="/"
+            >
+              Intro
+            </Link>
+            <Link
+              className="text-md align-text-bottom font-semibold no-underline mr-2 underline-offset-4 hover:underline"
+              to="/works"
+            >
+              Works
+            </Link>
+            <Link
+              className="text-md align-text-bottom font-semibold no-underline mr-2 underline-offset-4 hover:underline"
+              to="/about"
+            >
+              About
+            </Link>
+          </div>
           <a
             className="text-sm font-semibold uppercase underline-offset-4 hover:underline"
             href="/Sabri_Maslan_-_2025_-_Head_IT.pdf"
@@ -32,7 +37,7 @@ const LatestPage = () => {
             Download PDF
           </a>
         </div>
-      </aside>
+      </nav>
       <header className="relative mx-auto flex max-w-4xl flex-col md:flex-row">
         <div className="basis-4/5 p-6">
           <div className="items-center">

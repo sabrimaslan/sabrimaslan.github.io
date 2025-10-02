@@ -60,6 +60,13 @@ class Navigation extends Component {
                 <Link
                   className="pb-1 text-xl font-normal hover:underline hover:underline-offset-4"
                   activeClassName="font-semibold"
+                  to="/portfolio"
+                >
+                  Portfolio
+                </Link>
+                <Link
+                  className="pb-1 text-xl font-normal hover:underline hover:underline-offset-4"
+                  activeClassName="font-semibold"
                   to="/about"
                 >
                   About

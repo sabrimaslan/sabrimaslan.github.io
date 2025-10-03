@@ -1,4 +1,5 @@
 import * as React from 'react'
+import { StaticImage } from 'gatsby-plugin-image'
 import TopIcon from '../components/top'
 import DownIcon from '../components/down'
 import Layout from '../components/layout'
@@ -13,6 +14,10 @@ const anchors = [
   {
     name: 'FAQ',
     link: 'faq',
+  },
+  {
+    name: 'Behind the Team',
+    link: 'teams',
   },
 ]
 
@@ -140,6 +145,70 @@ const AboutPage = () => {
               </div>
             </div>
           </section>
+          <div className="hidden lg:col-span-2 lg:block"></div>
+        </section>
+        <section
+          className="snap-section h-screen min-h-fit content-center gap-6 py-10 lg:grid lg:grid-cols-10 lg:py-20"
+          id="teams"
+        >
+          <div className="lg:col-span-8">
+            <h4 className="pb-6 text-2xl font-semibold lg:pb-0">
+              Behind the Team
+            </h4>
+          </div>
+          <div className="hidden lg:col-span-2 lg:block"></div>
+          <article className="no-scrollbar flex flex-row overflow-x-auto lg:col-span-10 lg:px-4">
+            <div className="mr-4 min-w-[400px]">
+              <StaticImage
+                src="../images/team_time.png"
+                placeholder="blurred"
+                width={400}
+                quality={100}
+                formats={['auto', 'webp', 'avif']}
+                alt="TIME"
+              />
+            </div>
+            <div className="mr-4 min-w-[400px]">
+              <StaticImage
+                src="../images/team_celcomdigi.png"
+                placeholder="blurred"
+                width={400}
+                quality={100}
+                formats={['auto', 'webp', 'avif']}
+                alt="CelcomDigi"
+              />
+            </div>
+            <div className="mr-4 min-w-[400px]">
+              <StaticImage
+                src="../images/team_celcom_hipa.png"
+                placeholder="blurred"
+                width={400}
+                quality={100}
+                formats={['auto', 'webp', 'avif']}
+                alt="TIME"
+              />
+            </div>
+            <div className="mr-4 min-w-[400px]">
+              <StaticImage
+                src="../images/team_celcom_design.png"
+                placeholder="blurred"
+                width={400}
+                quality={100}
+                formats={['auto', 'webp', 'avif']}
+                alt="TIME"
+              />
+            </div>
+          </article>
+          <aside className="lg:col-span-8 lg:content-start">
+            <div className="text-md flex justify-end gap-2 font-semibold">
+              <button
+                className="cursor-pointer align-text-bottom no-underline underline-offset-4 hover:underline"
+                onClick={() => scrollTo('#epilogue')}
+              >
+                <TopIcon />
+              </button>
+            </div>
+          </aside>
           <div className="hidden lg:col-span-2 lg:block"></div>
         </section>
       </main>

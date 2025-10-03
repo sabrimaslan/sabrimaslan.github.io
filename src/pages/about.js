@@ -1,6 +1,7 @@
 import * as React from 'react'
 import { StaticImage } from 'gatsby-plugin-image'
 import TopIcon from '../components/top'
+import UpIcon from '../components/up'
 import DownIcon from '../components/down'
 import Layout from '../components/layout'
 import PageNav from '../components/pagenav'
@@ -140,7 +141,13 @@ const AboutPage = () => {
                   className="cursor-pointer align-text-bottom no-underline underline-offset-4 hover:underline"
                   onClick={() => scrollTo('#epilogue')}
                 >
-                  <TopIcon />
+                  <UpIcon />
+                </button>
+                <button
+                  className="cursor-pointer align-text-bottom no-underline underline-offset-4 hover:underline"
+                  onClick={() => scrollTo('#teams')}
+                >
+                  <DownIcon />
                 </button>
               </div>
             </div>

@@ -17,7 +17,7 @@ const anchors = [
     link: 'faq',
   },
   {
-    name: 'Behind the Team',
+    name: 'Teams',
     link: 'teams',
   },
 ]
@@ -40,15 +40,15 @@ const AboutPage = () => {
               better.
             </p>
             <p className="mb-4">
-              With over 15 years of experience spanning engineering, UI/UX, and
+              With over 15 years of experience spanning engineering, UI/UX and
               product delivery, I have led cross-functional teams through
               complex challenges — from crafting seamless user experiences to
               aligning technology execution with dynamic business goals.
             </p>
             <p className="mb-4">
               My work sits at the intersection of design thinking, system
-              architecture, and team culture. I have built scalable design
-              systems, integrated product thinking into engineering workflows,
+              architecture and team culture. I have built scalable design
+              systems, integrated product thinking into engineering workflows
               and led successful transformations — from company-wide platform
               shifts to launching new technology divisions.
             </p>
@@ -57,21 +57,21 @@ const AboutPage = () => {
             <p className="mb-4">
               I don’t manage from the sidelines. I lead with my sleeves rolled
               up, blending strategic vision with hands-on delivery. Ensuring the
-              vision is clear, execution is precise, and teams are empowered at
+              vision is clear, execution is precise and teams are empowered at
               every step.
             </p>
             <p className="mb-4 text-2xl font-semibold">
               Build something worth staying for.
             </p>
             <p className="mb-4">
-              Having worked with global MNCs, GLCs, startups, and scaling
+              Having worked with global MNCs, GLCs, startups and scaling
               companies, I have honed the ability to adapt quickly, lead with
-              clarity, and stay focused on what matters: building user-centered
-              systems, self-driven teams, and lasting impact.
+              clarity and stay focused on what matters: building user-centered
+              systems, self-driven teams and lasting impact.
             </p>
             <p>
               This portfolio is a glimpse into that journey — one driven by
-              commitment, collaboration, and continuous innovation.
+              commitment, collaboration and continuous innovation.
             </p>
             <div className="text-md flex justify-end font-semibold">
               <button
@@ -160,14 +160,14 @@ const AboutPage = () => {
         >
           <div className="lg:col-span-8">
             <h4 className="pb-6 text-2xl font-semibold lg:pb-0">
-              Behind the Team
+              We the People
             </h4>
           </div>
           <div className="hidden lg:col-span-2 lg:block"></div>
           <article className="no-scrollbar flex flex-row overflow-x-auto lg:col-span-10 lg:px-4">
             <div className="mr-4 min-w-[400px]">
               <StaticImage
-                src="../images/team_time.png"
+                src="../images/team-time.png"
                 placeholder="blurred"
                 width={400}
                 quality={100}
@@ -177,7 +177,7 @@ const AboutPage = () => {
             </div>
             <div className="mr-4 min-w-[400px]">
               <StaticImage
-                src="../images/team_celcomdigi.png"
+                src="../images/team-celcomdigi.png"
                 placeholder="blurred"
                 width={400}
                 quality={100}
@@ -187,22 +187,42 @@ const AboutPage = () => {
             </div>
             <div className="mr-4 min-w-[400px]">
               <StaticImage
-                src="../images/team_celcom_hipa.png"
+                src="../images/team-celcom-hipa.png"
                 placeholder="blurred"
                 width={400}
                 quality={100}
                 formats={['auto', 'webp', 'avif']}
-                alt="TIME"
+                alt="Celcom HIPA"
               />
             </div>
             <div className="mr-4 min-w-[400px]">
               <StaticImage
-                src="../images/team_celcom_design.png"
+                src="../images/team-celcom-design.png"
                 placeholder="blurred"
                 width={400}
                 quality={100}
                 formats={['auto', 'webp', 'avif']}
-                alt="TIME"
+                alt="Celcom Design"
+              />
+            </div>
+            <div className="mr-4 min-w-[400px]">
+              <StaticImage
+                src="../images/team-hpe.png"
+                placeholder="blurred"
+                width={400}
+                quality={100}
+                formats={['auto', 'webp', 'avif']}
+                alt="Hewlett Packard Enterprise"
+              />
+            </div>
+            <div className="mr-4 min-w-[400px]">
+              <StaticImage
+                src="../images/team-hp-mexico.png"
+                placeholder="blurred"
+                width={400}
+                quality={100}
+                formats={['auto', 'webp', 'avif']}
+                alt="Hewlett-Packard"
               />
             </div>
           </article>

@@ -222,7 +222,17 @@ const AboutPage = () => {
                 width={400}
                 quality={100}
                 formats={['auto', 'webp', 'avif']}
-                alt="Hewlett-Packard"
+                alt="Hewlett-Packard Mexico"
+              />
+            </div>
+            <div className="mr-4 min-w-[400px]">
+              <StaticImage
+                src="../images/team-hp-malaysia.png"
+                placeholder="blurred"
+                width={400}
+                quality={100}
+                formats={['auto', 'webp', 'avif']}
+                alt="Hewlett-Packard Malaysia"
               />
             </div>
           </article>

@@ -6,13 +6,15 @@
  */
 
 import * as React from 'react'
-
+import { useSiteMetadata } from '../hooks/use-site-metadata'
 import Navigation from './navigation'
 
 const Layout = ({ children }) => {
+  const { title, menuLinks } = useSiteMetadata()
+
   return (
     <div className="h-screen w-screen gap-6 lg:grid lg:grid-cols-12 lg:grid-rows-12">
-      <Navigation />
+      <Navigation menuLinks={menuLinks} siteTitle={title} />
       {children}
     </div>
   )

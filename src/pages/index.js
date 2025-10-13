@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
+import { SEO } from '../components/seo'
 import TopIcon from '../components/top'
 import UpIcon from '../components/up'
 import DownIcon from '../components/down'
@@ -388,4 +389,4 @@ const IndexPage = () => {
 
 export default IndexPage
 
-export const Head = () => <title>Sabri Maslan</title>
+export const Head = () => <SEO />

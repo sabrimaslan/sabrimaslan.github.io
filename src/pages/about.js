@@ -207,6 +207,16 @@ const AboutPage = () => {
             </div>
             <div className="mr-4 min-w-[400px]">
               <StaticImage
+                src="../images/team-dxc.png"
+                placeholder="blurred"
+                width={400}
+                quality={100}
+                formats={['auto', 'webp', 'avif']}
+                alt="DXC.technology"
+              />
+            </div>
+            <div className="mr-4 min-w-[400px]">
+              <StaticImage
                 src="../images/team-hpe.png"
                 placeholder="blurred"
                 width={400}

@@ -71,14 +71,6 @@ const IndexPage = () => {
             <div className="animate__animated animate__fadeInUp text-xl font-normal">
               Head, Engineering & Innovation
             </div>
-            <div className="mt-6">
-              <Link
-                className="text-md animate__animated animate__fadeInUp animate__slow align-text-bottom font-semibold no-underline underline-offset-4 hover:underline"
-                to="/latest"
-              >
-                View my resume
-              </Link>
-            </div>
           </aside>
           <article className="animate__animated animate__fadeIn animate__delay lg:col-span-4">
             <h4 className="animate__animated animate__fadeInUp py-6 text-2xl font-semibold">
@@ -96,10 +88,16 @@ const IndexPage = () => {
               fostering high-performing teams and guiding transformative digital
               initiatives from concept to delivery.
             </p>
-            <p className="animate__animated animate__fadeInUp animate__slow mb-0">
+            <p className="animate__animated animate__fadeInUp animate__slow mb-4">
               If you’re building something ambitious — I’m in.
             </p>
-            <div className="text-md animate__animated animate__fadeInUp animate__slower flex justify-end font-semibold">
+            <div className="text-md animate__animated animate__fadeInUp animate__slower flex justify-between font-semibold">
+              <Link
+                className="text-md animate__animated animate__fadeInUp animate__slow align-text-bottom font-semibold no-underline underline-offset-4 hover:underline"
+                to="/latest"
+              >
+                View my resume
+              </Link>
               <button
                 className="animate-bounce cursor-pointer align-text-bottom no-underline underline-offset-4 hover:underline"
                 onClick={() => scrollTo('#philosophy')}

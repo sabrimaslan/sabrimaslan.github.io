@@ -13,13 +13,13 @@ const anchors = [
     link: 'epilogue',
   },
   {
-    name: 'FAQ',
-    link: 'faq',
-  },
-  {
     name: 'Teams',
     link: 'teams',
   },
+  {
+    name: 'FAQ',
+    link: 'faq',
+  }
 ]
 
 const AboutPage = () => {
@@ -40,7 +40,7 @@ const AboutPage = () => {
               better.
             </p>
             <p className="mb-4">
-              With over 15 years of experience spanning engineering, UI/UX and
+              With over 15+ years of experience spanning engineering, UI/UX and
               product delivery, I have led cross-functional teams through
               complex challenges — from crafting seamless user experiences to
               aligning technology execution with dynamic business goals.
@@ -76,82 +76,12 @@ const AboutPage = () => {
             <div className="text-md flex justify-end font-semibold">
               <button
                 className="animate-bounce cursor-pointer align-text-bottom no-underline underline-offset-4 hover:underline"
-                onClick={() => scrollTo('#faq')}
+                onClick={() => scrollTo('#teams')}
               >
                 <DownIcon />
               </button>
             </div>
           </div>
-          <div className="hidden lg:col-span-2 lg:block"></div>
-        </section>
-        <section
-          className="snap-section h-screen content-center gap-5 lg:grid lg:grid-cols-10"
-          id="faq"
-        >
-          <div className="hidden lg:col-span-1 lg:block"></div>
-          <aside className="lg:col-span-2 lg:content-center">
-            <div className="pb-2 font-[Sometype_Mono] text-6xl font-bold -tracking-[.175em]">
-              FAQ
-            </div>
-            <div className="hidden text-2xl font-semibold lg:block">&nbsp;</div>
-            <div className="hidden text-xl font-normal lg:block">&nbsp;</div>
-          </aside>
-          <div className="hidden lg:col-span-1 lg:block"></div>
-          <section className="lg:col-span-4">
-            <h4 className="py-6 text-2xl font-semibold">
-              (Fine, Actually Quirky)
-            </h4>
-            <div className="mb-4">
-              <ul>
-                <li className="mb-2 -ml-3">
-                  &bull;{' '}
-                  <span className="font-semibold italic">Do I lead teams?</span>
-                  <br />
-                  <span className="ml-3">
-                    Yes — and I build them to lead, too.
-                  </span>
-                </li>
-                <li className="mb-2 -ml-3">
-                  &bull;{' '}
-                  <span className="font-semibold italic">
-                    Do I still design & code things myself?
-                  </span>
-                  <br />
-                  <span className="ml-3">Also yes.</span>
-                </li>
-                <li className="mb-2 -ml-3">
-                  &bull;{' '}
-                  <span className="font-semibold italic">
-                    Do I drink too much coffee?
-                  </span>
-                  <br />
-                  <span className="ml-3">Highly likely.</span>
-                </li>
-                <li className="mb-2 -ml-3">
-                  &bull;{' '}
-                  <span className="font-semibold italic">
-                    Do I love turning chaos into clarity?
-                  </span>
-                  <br />
-                  <span className="ml-3">Every time.</span>
-                </li>
-              </ul>
-              <div className="text-md animate__animated animate__fadeInUp animate__slower flex justify-end gap-2 font-semibold">
-                <button
-                  className="cursor-pointer align-text-bottom no-underline underline-offset-4 hover:underline"
-                  onClick={() => scrollTo('#epilogue')}
-                >
-                  <UpIcon />
-                </button>
-                <button
-                  className="cursor-pointer align-text-bottom no-underline underline-offset-4 hover:underline"
-                  onClick={() => scrollTo('#teams')}
-                >
-                  <DownIcon />
-                </button>
-              </div>
-            </div>
-          </section>
           <div className="hidden lg:col-span-2 lg:block"></div>
         </section>
         <section
@@ -252,12 +182,84 @@ const AboutPage = () => {
                 className="cursor-pointer align-text-bottom no-underline underline-offset-4 hover:underline"
                 onClick={() => scrollTo('#epilogue')}
               >
-                <TopIcon />
+                <UpIcon />
+              </button>
+              <button
+                className="cursor-pointer align-text-bottom no-underline underline-offset-4 hover:underline"
+                onClick={() => scrollTo('#faq')}
+              >
+                <DownIcon />
               </button>
             </div>
           </aside>
           <div className="hidden lg:col-span-2 lg:block"></div>
         </section>
+        <section
+          className="snap-section h-screen content-center gap-5 lg:grid lg:grid-cols-10"
+          id="faq"
+        >
+          <div className="hidden lg:col-span-1 lg:block"></div>
+          <aside className="lg:col-span-2 lg:content-center">
+            <div className="pb-2 font-[Sometype_Mono] text-6xl font-bold -tracking-[.175em]">
+              FAQ
+            </div>
+            <div className="hidden text-2xl font-semibold lg:block">&nbsp;</div>
+            <div className="hidden text-xl font-normal lg:block">&nbsp;</div>
+          </aside>
+          <div className="hidden lg:col-span-1 lg:block"></div>
+          <section className="lg:col-span-4">
+            <h4 className="py-6 text-2xl font-semibold">
+              (Fine, Actually Quirky)
+            </h4>
+            <div className="mb-4">
+              <ul>
+                <li className="mb-2 -ml-3">
+                  &bull;{' '}
+                  <span className="font-semibold italic">Do I lead teams?</span>
+                  <br />
+                  <span className="ml-3">
+                    Yes — and I build them to lead, too.
+                  </span>
+                </li>
+                <li className="mb-2 -ml-3">
+                  &bull;{' '}
+                  <span className="font-semibold italic">
+                    Do I still design & code things myself?
+                  </span>
+                  <br />
+                  <span className="ml-3">Also yes.</span>
+                </li>
+                <li className="mb-2 -ml-3">
+                  &bull;{' '}
+                  <span className="font-semibold italic">
+                    Do I drink too much coffee?
+                  </span>
+                  <br />
+                  <span className="ml-3">Highly likely.</span>
+                </li>
+                <li className="mb-2 -ml-3">
+                  &bull;{' '}
+                  <span className="font-semibold italic">
+                    Do I love turning chaos into clarity?
+                  </span>
+                  <br />
+                  <span className="ml-3">Every time.</span>
+                </li>
+              </ul>
+            </div>
+            <aside className="lg:col-span-8 lg:content-start">
+              <div className="text-md flex justify-end gap-2 font-semibold">
+                <button
+                  className="cursor-pointer align-text-bottom no-underline underline-offset-4 hover:underline"
+                  onClick={() => scrollTo('#epilogue')}
+                >
+                  <TopIcon />
+                </button>
+              </div>
+            </aside>
+          </section>
+          <div className="hidden lg:col-span-2 lg:block"></div>
+        </section> 
       </main>
     </Layout>
   )

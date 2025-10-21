@@ -1,4 +1,5 @@
 import * as React from 'react'
+import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
 import TopIcon from '../../components/top'
 import UpIcon from '../../components/up'
@@ -37,7 +38,7 @@ const WorksPage = () => {
         >
           <div className="lg:col-span-8">
             <h4 className="pb-6 text-2xl font-semibold lg:pb-0">
-              Driving transformation, innovation, and exceptional teams.
+              Driving transformation, innovation and exceptional teams.
             </h4>
           </div>
           <div className="hidden lg:col-span-2 lg:block"></div>
@@ -71,7 +72,13 @@ const WorksPage = () => {
               Take a look to see how I approach technology and leadership to
               create meaningful outcomes, one challenge at a time.
             </p>
-            <div className="text-md animate__animated animate__fadeInUp animate__slower flex justify-end font-semibold">
+            <div className="text-md flex justify-between font-semibold">
+              <Link
+                className="text-md animate__animated animate__fadeInUp animate__slow align-text-bottom font-semibold no-underline underline-offset-4 hover:underline"
+                to="/portfolio"
+              >
+                View my extensive portfolio
+              </Link>
               <button
                 className="animate-bounce cursor-pointer align-text-bottom no-underline underline-offset-4 hover:underline"
                 onClick={() => scrollTo('#innovation')}
@@ -159,7 +166,8 @@ const WorksPage = () => {
             </p>
             <h5 className="font-bold">Leadership Actions:</h5>
             <p className="mb-4">
-              Spearheaded a cross-department task force, facilitated workshops and mentored UI/UX teams on best practices.
+              Spearheaded a cross-department task force, facilitated workshops
+              and mentored UI/UX teams on best practices.
             </p>
             <h5 className="font-bold">Results:</h5>
             <p className="mb-4">
@@ -211,20 +219,20 @@ const WorksPage = () => {
             </p>
             <h5 className="font-bold">Challenge: </h5>
             <p className="mb-4">
-              Outdated customer portal led to low engagement and
-              scalability issues.
+              Outdated customer portal led to low engagement and scalability
+              issues.
             </p>
             <h5 className="font-bold">Leadership Actions: </h5>
             <p className="mb-4">
-              Assembled a diverse team across IT, design,
-              and customer success. Ran fortnightly strategy reviews, challenged
-              assumptions, and championed rapid prototyping.
+              Assembled a diverse team across IT, design, and customer success.
+              Ran fortnightly strategy reviews, challenged assumptions, and
+              championed rapid prototyping.
             </p>
             <h5 className="font-bold">Results: </h5>
             <p className="mb-4">
-              Launched a cloud-native platform ahead of schedule,
-              raising customer satisfaction scores by 35% and reducing
-              maintenance costs by 28%.
+              Launched a cloud-native platform ahead of schedule, raising
+              customer satisfaction scores by 35% and reducing maintenance costs
+              by 28%.
             </p>
           </div>
           <div className="lg:col-span-4">

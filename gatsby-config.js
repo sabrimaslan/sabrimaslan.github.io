@@ -16,10 +16,6 @@ module.exports = {
         link: '/works'
       },
       {
-        name: 'Portfolio',
-        link: '/portfolio'
-      },
-      {
         name: 'About',
         link: '/about'
       }

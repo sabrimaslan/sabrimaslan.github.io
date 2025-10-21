@@ -6,8 +6,8 @@ import Layout from '../../components/layout'
 const OnAppPage = () => {
   return (
     <Layout>
-      <main className="lg:col-span-10 snap-container">
-        <div className="min-h-screen gap-6 px-6 lg:grid lg:h-screen lg:grid-cols-10 lg:content-center lg:p-0 snap-section">
+      <main className="snap-container lg:col-span-10">
+        <div className="snap-section h-screen content-center gap-6 px-6 lg:grid lg:grid-cols-10 lg:p-0">
           <div className="hidden lg:col-span-1 lg:block"></div>
           <aside className="py-6 lg:col-span-2 lg:pt-23.5">
             <h4 className="text-md font-light tracking-[.125em] uppercase">
@@ -29,14 +29,14 @@ const OnAppPage = () => {
               />
             </div>
             <p className="mb-2">
-              Another part of my work that involves other media. This
-              includes desktop & mobile applications. I’d always like to
-              involved with startups to practice new technologies.
+              Another part of my work that involves other media. This includes
+              desktop & mobile applications. I’d always like to involved with
+              startups to practice new technologies.
             </p>
             <p className="mb-2">
               The tools used for these works are mostly open source tools.
-              Electron, React Native and Cordova to just name a few (just
-              by the names you’d know its the future).
+              Electron, React Native and Cordova to just name a few (just by the
+              names you’d know its the future).
             </p>
             <div className="text-md flex justify-end py-6 font-semibold">
               Scroll{' '}
@@ -53,7 +53,7 @@ const OnAppPage = () => {
           <div className="hidden lg:col-span-3 lg:block"></div>
         </div>
         {/* Checkmate */}
-        <div className="flex min-h-screen flex-col content-center justify-center gap-6 lg:grid lg:h-screen lg:grid-cols-10 lg:flex-row snap-section">
+        <div className="snap-section flex min-h-screen flex-col content-center justify-center gap-6 lg:grid lg:h-screen lg:grid-cols-10 lg:flex-row">
           <section className="order-last lg:order-first lg:col-span-10">
             <div className="no-scrollbar flex h-full max-w-full flex-row overflow-x-auto">
               <div className="min-w-[600px] p-4 lg:pl-0">
@@ -141,7 +141,7 @@ const OnAppPage = () => {
           </aside>
         </div>
         {/* Makan App */}
-        <div className="flex min-h-screen flex-col content-center justify-center gap-6 lg:grid lg:h-screen lg:grid-cols-10 lg:flex-row snap-section">
+        <div className="snap-section flex min-h-screen flex-col content-center justify-center gap-6 lg:grid lg:h-screen lg:grid-cols-10 lg:flex-row">
           <section className="order-last lg:order-first lg:col-span-10">
             <div className="no-scrollbar flex flex-row overflow-x-auto">
               <div className="min-w-[299px] p-4 lg:pl-0">

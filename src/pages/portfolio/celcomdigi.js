@@ -6,8 +6,8 @@ import Layout from '../../components/layout'
 const CompanyCelcomDigiPage = () => {
   return (
     <Layout>
-      <main className="lg:col-span-10 snap-container">
-        <div className="min-h-screen gap-6 px-6 lg:grid lg:h-screen lg:grid-cols-10 lg:content-center lg:p-0 snap-section">
+      <main className="snap-container lg:col-span-10">
+        <div className="snap-section h-screen content-center gap-6 px-6 lg:grid lg:grid-cols-10 lg:p-0">
           <div className="hidden xl:col-span-1 xl:block"></div>
           <aside className="py-6 lg:col-span-4 lg:pt-22 xl:col-span-3">
             <h4 className="text-md font-light tracking-[.125em] uppercase">
@@ -57,7 +57,7 @@ const CompanyCelcomDigiPage = () => {
           <div className="hidden lg:col-span-2 lg:block"></div>
         </div>
         {/* Next Gen */}
-        <div className="flex min-h-screen flex-col content-center justify-center gap-6 lg:grid lg:h-screen lg:grid-cols-10 lg:flex-row snap-section">
+        <div className="snap-section flex min-h-screen flex-col content-center justify-center gap-6 lg:grid lg:h-screen lg:grid-cols-10 lg:flex-row">
           <section className="order-last lg:order-first lg:col-span-10">
             <div className="no-scrollbar flex flex-row overflow-x-auto">
               <div className="min-w-[305px] p-4 lg:pl-0">
@@ -154,7 +154,7 @@ const CompanyCelcomDigiPage = () => {
           </aside>
         </div>
         {/* Pryce */}
-        <div className="flex min-h-screen flex-col content-center justify-center gap-6 lg:grid lg:h-screen lg:grid-cols-10 lg:flex-row snap-section">
+        <div className="snap-section flex min-h-screen flex-col content-center justify-center gap-6 lg:grid lg:h-screen lg:grid-cols-10 lg:flex-row">
           <section className="order-last lg:order-first lg:col-span-10">
             <div className="no-scrollbar flex flex-row overflow-x-auto">
               <div className="min-w-[305px] p-4 lg:pl-0">
@@ -251,7 +251,7 @@ const CompanyCelcomDigiPage = () => {
           </aside>
         </div>
         {/* Next Gen Design System */}
-        <div className="flex min-h-screen flex-col content-center justify-center gap-6 lg:grid lg:h-screen lg:grid-cols-10 lg:flex-row snap-section">
+        <div className="snap-section flex min-h-screen flex-col content-center justify-center gap-6 lg:grid lg:h-screen lg:grid-cols-10 lg:flex-row">
           <section className="order-last lg:order-first lg:col-span-10">
             <div className="no-scrollbar flex h-full max-w-full flex-row overflow-x-auto">
               <div className="min-w-[600px] p-4 lg:pl-0">

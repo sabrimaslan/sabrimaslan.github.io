@@ -6,8 +6,8 @@ import Layout from '../../components/layout'
 const CompanyTimePage = () => {
   return (
     <Layout>
-      <main className="lg:col-span-10 snap-container">
-        <div className="min-h-screen gap-6 px-6 lg:grid lg:h-screen lg:grid-cols-10 lg:content-center lg:p-0 snap-section">
+      <main className="snap-container lg:col-span-10">
+        <div className="snap-section h-screen content-center gap-6 px-6 lg:grid lg:grid-cols-10 lg:p-0">
           <div className="hidden xl:col-span-1 xl:block"></div>
           <aside className="py-6 lg:col-span-4 lg:pt-20 xl:col-span-3">
             <h4 className="text-md font-light tracking-[.125em] uppercase">
@@ -57,7 +57,7 @@ const CompanyTimePage = () => {
           <div className="hidden lg:col-span-2 lg:block"></div>
         </div>
         {/* TIME Home Fibre */}
-        <div className="flex min-h-screen flex-col content-center justify-center gap-6 lg:grid lg:h-screen lg:grid-cols-10 lg:flex-row snap-section">
+        <div className="snap-section flex min-h-screen flex-col content-center justify-center gap-6 lg:grid lg:h-screen lg:grid-cols-10 lg:flex-row">
           <section className="order-last lg:order-first lg:col-span-10">
             <div className="no-scrollbar flex flex-row overflow-x-auto">
               <div className="min-w-[305px] p-4 lg:pl-0">
@@ -155,7 +155,7 @@ const CompanyTimePage = () => {
           </aside>
         </div>
         {/* TIME Retail Kiosk */}
-        <div className="flex min-h-screen flex-col content-center justify-center gap-6 lg:grid lg:h-screen lg:grid-cols-10 lg:flex-row snap-section">
+        <div className="snap-section flex min-h-screen flex-col content-center justify-center gap-6 lg:grid lg:h-screen lg:grid-cols-10 lg:flex-row">
           <section className="order-last lg:order-first lg:col-span-10">
             <div className="no-scrollbar flex flex-row overflow-x-auto">
               <div className="min-w-[305px] p-4 lg:pl-0">
@@ -252,7 +252,7 @@ const CompanyTimePage = () => {
           </aside>
         </div>
         {/* TIME Design Library */}
-        <div className="flex min-h-screen flex-col content-center justify-center gap-6 lg:grid lg:h-screen lg:grid-cols-10 lg:flex-row snap-section">
+        <div className="snap-section flex min-h-screen flex-col content-center justify-center gap-6 lg:grid lg:h-screen lg:grid-cols-10 lg:flex-row">
           <section className="order-last lg:order-first lg:col-span-10">
             <div className="no-scrollbar flex h-full max-w-full flex-row overflow-x-auto">
               <div className="min-w-[600px] p-4 lg:pl-0">
@@ -349,4 +349,6 @@ const CompanyTimePage = () => {
 
 export default CompanyTimePage
 
-export const Head = () => <title>Portfolio for TIME dotCom : Sabri Maslan</title>
+export const Head = () => (
+  <title>Portfolio for TIME dotCom : Sabri Maslan</title>
+)

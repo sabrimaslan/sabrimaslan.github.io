@@ -16,7 +16,7 @@ const PortfolioPage = () => {
         <div className="hidden lg:col-span-1 lg:block"></div>
         <div className="hidden lg:col-span-1 lg:block"></div>
         <section className="lg:col-span-4 lg:content-center">
-          <h5 className="text-md mb-2 font-light tracking-[.125em] uppercase">
+          <h5 className="text-md mb-2 tracking-[.125em] uppercase">
             Company
           </h5>
           <div className="mb-8 flex flex-col font-normal">
@@ -59,7 +59,7 @@ const PortfolioPage = () => {
           </div>
         </section>
         <section className="lg:col-span-4">
-          <h5 className="text-md mb-2 font-light tracking-[.125em] uppercase">
+          <h5 className="text-md mb-2 tracking-[.125em] uppercase">
             Freelance
           </h5>
           <div className="flex flex-col font-normal">

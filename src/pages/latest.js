@@ -9,19 +9,19 @@ const LatestPage = () => {
         <div className="flex w-full justify-between p-6">
           <div>
             <Link
-              className="text-md align-text-bottom font-semibold no-underline mr-2 underline-offset-4 hover:underline"
+              className="text-md mr-2 align-text-bottom font-semibold no-underline underline-offset-4 hover:underline"
               to="/"
             >
               Intro
             </Link>
             <Link
-              className="text-md align-text-bottom font-semibold no-underline mr-2 underline-offset-4 hover:underline"
+              className="text-md mr-2 align-text-bottom font-semibold no-underline underline-offset-4 hover:underline"
               to="/works"
             >
               Works
             </Link>
             <Link
-              className="text-md align-text-bottom font-semibold no-underline mr-2 underline-offset-4 hover:underline"
+              className="text-md mr-2 align-text-bottom font-semibold no-underline underline-offset-4 hover:underline"
               to="/about"
             >
               About
@@ -101,45 +101,45 @@ const LatestPage = () => {
       <main className="relative mx-auto flex min-h-screen max-w-4xl flex-col md:mb-10">
         <section className="p-6 md:py-3">
           <h4 className="text-md font-[Open_Sans] font-semibold tracking-[.25em] uppercase">
-            Professional Summary
+            Profile
           </h4>
           <hr className="my-2 w-full border-t-2"></hr>
           <div className="flex flex-col">
-            Experienced IT leader with 15+ years driving digital transformation,
-            enterprise architecture, and technology innovation in highly
-            regulated industries. Skilled in leading secure and scalable digital
-            platforms including telco BSS, middleware, payment gateways, and
-            digital identity systems. Proven ability to develop digital
-            innovation strategies, architect mission-critical systems, and lead
-            agile, cross-functional teams to deliver compliant, customer-centric
-            solutions aligned with national digital economy goals.
+            Experienced technology leader with 15+ years driving digital
+            transformation, enterprise architecture and technology innovation in
+            highly regulated industries. Proven success in leading
+            cross-functional engineering teams across mobile, web and backend
+            domains to deliver scalable, secure and customer-centric platforms.
+            Demonstrated ability to collaborate with business leaders on product
+            roadmaps, establish customer-centric metrics and drive region-wide
+            engineering excellence. Passionate about mentoring talent and
+            fostering a high-performance culture aligned with strategic business
+            goals.
           </div>
         </section>
         <section className="p-6 md:py-3">
           <h4 className="text-md font-[Open_Sans] font-semibold tracking-[.25em] uppercase">
-            Core Competencies
+            Competencies
           </h4>
           <hr className="my-2 w-full border-t-2"></hr>
           <div className="flex flex-col">
             <ul className="ml-6 list-disc">
-              <li>Digital Innovation Strategy & Technology Roadmaps</li>
-              <li>Enterprise Architecture & Scalable System Design</li>
               <li>
-                Secure-by-Design Software Development & DevOps (CI/CD,
-                Automation, Containers)
+                Cross-Functional Engineering Leadership (Mobile, Web, Backend)
               </li>
-              <li>Cloud Infrastructure Migration & Management</li>
-              <li>Middleware, API Management & BSS Platforms</li>
-              <li>eKYC, Digital Identity & Customer Data Unification</li>
-              <li>Agile Delivery & Cross-Functional Team Leadership</li>
+              <li>Scalable System Architecture & Cloud Infrastructure</li>
+              <li>Digital Operations & Customer Experience Strategy</li>
+              <li>Product Roadmap Collaboration & Customer-Centric Metrics</li>
+              <li>Engineering Strategy & Excellence Standards</li>
+              <li>Talent Development & Retention</li>
+              <li>Agile Delivery & Experiment Design</li>
               <li>Vendor & Stakeholder Management</li>
-              <li>Customer-Centric Application & Platform Development</li>
             </ul>
           </div>
         </section>
         <section className="p-6 md:py-3">
           <h4 className="text-md font-[Open_Sans] font-semibold tracking-[.25em] uppercase">
-            Professional Experience
+            Experience
           </h4>
           <hr className="my-2 w-full border-t-2"></hr>
           <div className="flex flex-col">
@@ -155,20 +155,19 @@ const LatestPage = () => {
               As the Head of Engineering
               <ul className="ml-6 list-disc">
                 <li>
-                  Lead architecture and delivery of end-to-end Business Support
-                  System (BSS) platforms (billing, CRM, order management) to
+                  Lead architecture and delivery of end-to-end business support
+                  system (BSS) platforms (order management, billing, CRM) to
                   support new product launches and digital scalability.
                 </li>
                 <li>
                   Directed digital transformation initiatives including mobile
-                  apps, kiosks, dealer apps, and WhatsApp acquisition bots,
-                  increasing customer acquisition by 30%.
+                  apps, kiosks, dealer apps and acquisition bots, increasing
+                  customer acquisition by 30%.
                 </li>
                 <li>
-                  Built and led agile, cross-functional teams (Project
-                  Management, Development, DevOps, UI/UX and Quality Assurance),
-                  driving a 25% improvement in sprint velocity and reducing
-                  delivery lead times.
+                  Built and led agile, cross-functional teams, driving a 25%
+                  improvement in sprint velocity and reducing delivery lead
+                  times.
                 </li>
                 <li>
                   Implemented a digital payment gateway and eKYC solutions
@@ -177,7 +176,8 @@ const LatestPage = () => {
                 </li>
                 <li>
                   Spearheaded IT Asset Management (ITAM) strategy for
-                  applications and infrastructure, reducing operational costs.
+                  applications and infrastructure, reducing operational costs by
+                  double digits.
                 </li>
               </ul>
             </div>
@@ -186,15 +186,15 @@ const LatestPage = () => {
               <ul className="ml-6 list-disc">
                 <li>
                   Defined target digital architecture for modern,
-                  legacy-independent customer platforms aligned with national
-                  digital transformation goals.
+                  legacy-independent customer platforms aligned with digital
+                  transformation goals.
                 </li>
                 <li>
                   Led customer 360° data unification driving analytics-driven
                   personalization and revenue protection across platforms.
                 </li>
                 <li>
-                  Championed Agile portfolio delivery to maintain
+                  Championed agile portfolio delivery to maintain
                   mission-critical project milestones despite resource
                   constraints.
                 </li>
@@ -241,8 +241,8 @@ const LatestPage = () => {
               <ul className="ml-6 list-disc">
                 <li>
                   Led multidisciplinary product development teams integrating
-                  UI/UX design, AI, and backend solutions across consumer mobile
-                  and web platforms.
+                  UI/UX design, data analytics, frontend and backend solutions
+                  across consumer mobile and web platforms.
                 </li>
                 <li>
                   Principal architect and maintainer of the Celcom Design
@@ -251,7 +251,7 @@ const LatestPage = () => {
                 </li>
                 <li>
                   Ensured high-quality delivery through continuous collaboration
-                  with partner development teams and adherence to Agile
+                  with partner development teams and adherence to agile
                   methodologies.
                 </li>
                 <li>
@@ -268,8 +268,8 @@ const LatestPage = () => {
                   Spearheaded integration of the Design System across major
                   platforms, establishing a unified, scalable, reusable
                   component framework that served as the foundational framework
-                  during the merger which significantly reducing development
-                  effort and accelerating time-to-market.
+                  post-merger which significantly reducing development effort
+                  and accelerating time-to-market.
                 </li>
                 <li>
                   Innovated and deployed a web-based onboarding solution
@@ -303,8 +303,8 @@ const LatestPage = () => {
               <ul className="ml-6 list-disc">
                 <li>
                   Managed global UI/UX teams delivering web and mobile solutions
-                  for business process outsourcing (BPO) clients in Asia,
-                  Europe, and the Americas.
+                  for business process outsourcing (BPO) clients in Asia, Europe
+                  and the Americas.
                 </li>
                 <li>
                   Oversaw business continuity and support during corporate

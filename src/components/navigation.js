@@ -20,7 +20,7 @@ const Navigation = ({ siteTitle, menuLinks }) => {
         </button>
       </div>
       <div
-        className="fixed z-10 hidden h-full w-full bg-white p-6 text-right lg:flex lg:w-auto lg:p-0"
+        className="fixed z-10 hidden h-full w-full bg-base-100 p-6 text-right lg:flex lg:w-auto lg:p-0"
         ref={inputRef}
       >
         <button onClick={handleClick} className="lg:hidden">

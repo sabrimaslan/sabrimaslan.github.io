@@ -104,7 +104,7 @@ const IndexPage = () => {
               </Link>
               <button
                 className="animate-bounce cursor-pointer align-text-bottom no-underline underline-offset-4 hover:underline"
-                onClick={() => scrollTo('#philosophy')}
+                onClick={() => scrollTo('#timeline')}
               >
                 <DownIcon />
               </button>
@@ -113,115 +113,189 @@ const IndexPage = () => {
           <div className="hidden lg:col-span-2 lg:block"></div>
         </section>
         <section
-          className="snap-section h-screen min-h-fit content-center gap-6 py-10"
+          className="snap-section h-screen min-h-fit content-center gap-6 py-10 lg:grid lg:grid-cols-10"
           id="timeline"
         >
           <div className="lg:col-span-10">
-            <h4 className="pb-6 text-2xl font-semibold lg:pb-0">
-              Timeline
-            </h4>
+            <h4 className="pb-6 text-2xl font-semibold lg:pb-0">Timeline</h4>
           </div>
-          <ul className="timeline lg:col-span-6 timeline-vertical lg:timeline-horizontal lg:justify-center">
-            <li>
-              <div className="timeline-start">2007</div>
-              <div className="timeline-middle">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                  className="h-5 w-5"
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                    clipRule="evenodd"
-                  />
-                </svg>
-              </div>
-              <div className="timeline-end timeline-box">Freelance</div>
-              <hr />
-            </li>
-            <li>
-              <hr />
-              <div className="timeline-start">2012</div>
-              <div className="timeline-middle">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                  className="h-5 w-5"
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                    clipRule="evenodd"
-                  />
-                </svg>
-              </div>
-              <div className="timeline-end timeline-box">HP Inc.</div>
-              <hr />
-            </li>
-            <li>
-              <hr />
-              <div className="timeline-start">2018</div>
-              <div className="timeline-middle">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                  className="h-5 w-5"
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                    clipRule="evenodd"
-                  />
-                </svg>
-              </div>
-              <div className="timeline-end timeline-box">Celcom Axiata</div>
-              <hr />
-            </li>
-            <li>
-              <hr />
-              <div className="timeline-start">2024</div>
-              <div className="timeline-middle">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                  className="h-5 w-5"
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                    clipRule="evenodd"
-                  />
-                </svg>
-              </div>
-              <div className="timeline-end timeline-box">TIME dotCom</div>
-              <hr />
-            </li>
-            <li>
-              <hr />
-              <div className="timeline-start">2025</div>
-              <div className="timeline-middle">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                  className="h-5 w-5"
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                    clipRule="evenodd"
-                  />
-                </svg>
-              </div>
-              <div className="timeline-end timeline-box">Now</div>
-            </li>
-          </ul>
-          <div className="hidden lg:col-span-4 lg:block"></div>
+          <article className="lg:col-span-8 lg:content-start">
+            <ul className="timeline timeline-vertical lg:timeline-horizontal lg:justify-center">
+              <li>
+                <div className="timeline-start">2007</div>
+                <div className="timeline-middle">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    className="text-primary h-5 w-5"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                </div>
+                <div className="timeline-end timeline-box">Freelance</div>
+                <hr className="bg-primary" />
+              </li>
+              <li>
+                <hr className="bg-primary" />
+                <div className="timeline-start">2012</div>
+                <div className="timeline-middle">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    className="text-primary h-5 w-5"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                </div>
+                <div className="timeline-end timeline-box">HP Inc.</div>
+                <hr className="bg-primary" />
+              </li>
+              <li>
+                <hr className="bg-primary" />
+                <div className="timeline-start">2015</div>
+                <div className="timeline-middle">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    className="text-primary h-5 w-5"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                </div>
+                <div className="timeline-end timeline-box">HPE</div>
+                <hr className="bg-primary" />
+              </li>
+              <li>
+                <hr className="bg-primary" />
+                <div className="timeline-start">2017</div>
+                <div className="timeline-middle">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    className="text-primary h-5 w-5"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                </div>
+                <div className="timeline-end timeline-box">DXC Technology</div>
+                <hr className="bg-primary" />
+              </li>
+              <li>
+                <hr className="bg-primary" />
+                <div className="timeline-start">2018</div>
+                <div className="timeline-middle">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    className="text-primary h-5 w-5"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                </div>
+                <div className="timeline-end timeline-box">Celcom Axiata</div>
+                <hr className="bg-primary" />
+              </li>
+              <li>
+                <hr className="bg-primary" />
+                <div className="timeline-start">2022</div>
+                <div className="timeline-middle">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    className="text-primary h-5 w-5"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                </div>
+                <div className="timeline-end timeline-box">CelcomDigi</div>
+                <hr className="bg-primary" />
+              </li>
+              <li>
+                <hr className="bg-primary" />
+                <div className="timeline-start">2024</div>
+                <div className="timeline-middle">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    className="text-primary h-5 w-5"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                </div>
+                <div className="timeline-end timeline-box">TIME dotCom</div>
+                <hr />
+              </li>
+              <li>
+                <hr />
+                <div className="timeline-start">2025</div>
+                <div className="timeline-middle">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    className="h-5 w-5"
+                  >
+                    {/* <path
+                      fillRule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                      clipRule="evenodd"
+                    /> */}
+                  </svg>
+                </div>
+                {/* <div className="timeline-end timeline-box">Now</div> */}
+              </li>
+            </ul>
+            <div className="text-md flex justify-end gap-2 font-semibold">
+              <button
+                className="cursor-pointer align-text-bottom no-underline underline-offset-4 hover:underline"
+                onClick={() => scrollTo('#prologue')}
+              >
+                <UpIcon />
+              </button>
+              <button
+                className="cursor-pointer align-text-bottom no-underline underline-offset-4 hover:underline"
+                onClick={() => scrollTo('#philosophy')}
+              >
+                <DownIcon />
+              </button>
+            </div>
+          </article>
+          <div className="hidden lg:col-span-2 lg:block"></div>
         </section>
         <section
           className="snap-section h-screen min-h-fit content-center gap-6 py-10 lg:grid lg:grid-cols-10 lg:py-20"
@@ -268,7 +342,7 @@ const IndexPage = () => {
             <div className="text-md flex justify-end gap-2 font-semibold">
               <button
                 className="cursor-pointer align-text-bottom no-underline underline-offset-4 hover:underline"
-                onClick={() => scrollTo('#prologue')}
+                onClick={() => scrollTo('#timeline')}
               >
                 <UpIcon />
               </button>

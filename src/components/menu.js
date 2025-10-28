@@ -10,14 +10,14 @@ const Menu = () => (
   >
     <path
       d="M16.8569 15.007C14.2353 15.0069 7.14308 15.0069 7.14308 15.0069"
-      stroke="#080808"
+      stroke="currentColor"
       strokeWidth="2"
       strokeLinecap="square"
       strokeLinejoin="round"
     />
     <path
       d="M16.8592 8.99908L7.14096 8.99909"
-      stroke="#080808"
+      stroke="currentColor"
       strokeWidth="2"
       strokeLinecap="square"
       strokeLinejoin="round"

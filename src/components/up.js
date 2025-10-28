@@ -10,14 +10,14 @@ const Up = () => (
   >
     <path
       d="M12 5.28255L12 18.7175"
-      stroke="#080808"
+      stroke="currentColor"
       strokeWidth="2"
       strokeLinecap="square"
       strokeLinejoin="round"
     />
     <path
       d="M4.9289 11.7639L12 4.69289L19.0711 11.764"
-      stroke="#080808"
+      stroke="currentColor"
       strokeWidth="2"
       strokeLinecap="square"
     />

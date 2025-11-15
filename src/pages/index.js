@@ -430,42 +430,42 @@ const IndexPage = () => {
           </div>
           <div className="hidden lg:col-span-2 lg:block"></div>
           <article className="no-scrollbar flex flex-row overflow-x-auto lg:col-span-10 lg:px-4">
-            <div className="mr-4 min-w-[234px]">
+            <div className="mr-4 min-w-[254px]">
               <StaticImage
                 src="../images/testimonial-07-alif.png"
                 placeholder="blurred"
-                width={234}
+                width={254}
                 quality={100}
                 formats={['auto', 'webp', 'avif']}
                 alt="Alif"
               />
             </div>
-            <div className="mr-4 min-w-[234px]">
+            <div className="mr-4 min-w-[254px]">
               <StaticImage
                 src="../images/testimonial-01-ashbil.png"
                 placeholder="blurred"
-                width={234}
+                width={254}
                 quality={100}
                 formats={['auto', 'webp', 'avif']}
                 alt="Ashbil"
               />
             </div>
-            <div className="mr-4 min-w-[234px]">
+            <div className="mr-4 min-w-[254px]">
               <StaticImage
                 src="../images/testimonial-02-zee.png"
                 placeholder="blurred"
-                width={234}
+                width={254}
                 quality={100}
                 formats={['auto', 'webp', 'avif']}
                 alt="Zee"
               />
             </div>
-            <div className="mr-4 min-w-[286px]">
+            <div className="mr-4 min-w-[254px]">
               <StaticImage
                 src="../images/testimonial-04-fazlinda.png"
                 className="mb-4"
                 placeholder="blurred"
-                width={286}
+                width={254}
                 quality={100}
                 formats={['auto', 'webp', 'avif']}
                 alt="Fazlinda"
@@ -474,7 +474,7 @@ const IndexPage = () => {
                 src="../images/testimonial-05-yvonne.png"
                 className="mb-4"
                 placeholder="blurred"
-                width={286}
+                width={254}
                 quality={100}
                 formats={['auto', 'webp', 'avif']}
                 alt="Yvonne"
@@ -482,18 +482,18 @@ const IndexPage = () => {
               <StaticImage
                 src="../images/testimonial-06-esther.png"
                 placeholder="blurred"
-                width={286}
+                width={254}
                 quality={100}
                 formats={['auto', 'webp', 'avif']}
                 alt="Esther"
               />
             </div>
-            <div className="mr-4 min-w-[286px]">
+            <div className="mr-4 min-w-[254px]">
               <StaticImage
                 src="../images/testimonial-08-azuree.png"
                 className="mb-4"
                 placeholder="blurred"
-                width={286}
+                width={254}
                 quality={100}
                 formats={['auto', 'webp', 'avif']}
                 alt="Azuree"
@@ -502,38 +502,38 @@ const IndexPage = () => {
                 src="../images/testimonial-03-alif.png"
                 className="mb-4"
                 placeholder="blurred"
-                width={288}
+                width={254}
                 quality={100}
                 formats={['auto', 'webp', 'avif']}
                 alt="Alif"
               />
             </div>
-            <div className="mr-4 min-w-[234px]">
+            <div className="mr-4 min-w-[254px]">
               <StaticImage
                 src="../images/testimonial-10-putra.png"
                 placeholder="blurred"
-                width={234}
+                width={254}
                 quality={100}
                 formats={['auto', 'webp', 'avif']}
                 alt="Putra"
               />
             </div>
-            <div className="mr-4 min-w-[234px]">
+            <div className="mr-4 min-w-[254px]">
               <StaticImage
                 src="../images/testimonial-11-nazhan.png"
                 placeholder="blurred"
-                width={234}
+                width={254}
                 quality={100}
                 formats={['auto', 'webp', 'avif']}
                 alt="Nazhan"
               />
             </div>
-            <div className="mr-4 min-w-[284px]">
+            <div className="mr-4 min-w-[254px]">
               <StaticImage
                 src="../images/testimonial-12-thava.png"
                 className="mb-4"
                 placeholder="blurred"
-                width={286}
+                width={254}
                 quality={100}
                 formats={['auto', 'webp', 'avif']}
                 alt="Thava"
@@ -542,7 +542,7 @@ const IndexPage = () => {
                 src="../images/testimonial-13-tasha.png"
                 className="mb-4"
                 placeholder="blurred"
-                width={228}
+                width={254}
                 quality={100}
                 formats={['auto', 'webp', 'avif']}
                 alt="Tasha"
@@ -550,7 +550,7 @@ const IndexPage = () => {
               <StaticImage
                 src="../images/testimonial-14-ainna.png"
                 placeholder="blurred"
-                width={284}
+                width={254}
                 quality={100}
                 formats={['auto', 'webp', 'avif']}
                 alt="Ainna"
